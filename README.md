@@ -1,6 +1,2 @@
 # DEV docs
 
-```text
-
-```
-
