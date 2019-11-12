@@ -1,0 +1,39 @@
+---
+description: 'Fast, reliable, and secure dependency management.'
+---
+
+# Yarn
+
+yarn est installé & géré par [Homebrew](homebrew.md)  
+_You can install Yarn through the_ [_Homebrew package manager_](https://brew.sh/)_. This will also install Node.js if it is not already installed._
+
+Docs :  
+[https://yarnpkg.com/en/docs/install\#mac-stable](https://yarnpkg.com/en/docs/install#mac-stable)  
+[https://yarnpkg.com/en/docs/cli/](https://yarnpkg.com/en/docs/cli/)  
+
+
+```text
+// Voir sa version de Yarn
+$ yarn -v
+
+// Créer un package.json
+$ yarn init
+
+//oubien pour éviter les questions interactives (--yes or -Y)
+$ yarn init --yes
+
+// Installer un paquet en devDependencies (--dev or -D)
+$ yarn add webpack --dev
+
+// Installer une version spécifique
+yarn add susy@2.2.14 --exact --dev
+
+// Lister les paquets NON à jour
+$ yarn outdated
+
+// Mettre à jour un paquet à sa dernière version
+// (ça outrepasse le premier chiffre de version)
+// gulp-autoprefixer 6.1.0   6.1.0  7.0.1
+$ yarn upgrade gulp-autoprefixer --latest
+```
+
