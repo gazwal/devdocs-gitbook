@@ -22,6 +22,6 @@
   * [Install & Composer](drupal-8/install-and-composer.md)
   * [DEV de modules](drupal-8/ressources-dev-modules.md)
   * [Ressources Web - API](drupal-8/api.md)
-* [Wordpress](wordpress-1/README.md)
-  * [Ressources web](wordpress-1/ressources-web.md)
+* [Wordpress](wordpress/README.md)
+  * [Ressources web](wordpress/ressources-web.md)
 
