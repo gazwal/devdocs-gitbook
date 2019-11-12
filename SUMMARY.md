@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [DEV docs](README.md)
 * [PHP](php/README.md)
   * [Les bases](php/les-bases.md)
   * [Symfony 4](php/symfony-4.md)
