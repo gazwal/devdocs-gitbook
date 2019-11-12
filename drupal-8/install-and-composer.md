@@ -1,8 +1,8 @@
 # Install & Composer
 
-### Install via [rupal-composer](https://github.com/drupal-composer)/[**drupal-project**](https://github.com/drupal-composer/drupal-project)
+## Install via [rupal-composer](https://github.com/drupal-composer)/[**drupal-project**](https://github.com/drupal-composer/drupal-project)
 
-### What does the template do?
+## What does the template do?
 
 When installing the given `composer.json` some tasks are taken care of:
 
