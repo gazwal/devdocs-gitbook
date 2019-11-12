@@ -1,6 +1,6 @@
 # Install & Composer
 
-## Install via [rupal-composer](https://github.com/drupal-composer)/[**drupal-project**](https://github.com/drupal-composer/drupal-project)
+### Install via [rupal-composer](https://github.com/drupal-composer)/[**drupal-project**](https://github.com/drupal-composer/drupal-project)
 
 ### What does the template do?
 
@@ -16,6 +16,14 @@ When installing the given `composer.json` some tasks are taken care of:
 * Latest version of drush is installed locally for use at `vendor/bin/drush`.
 * Latest version of DrupalConsole is installed locally for use at `vendor/bin/drupal`.
 * Creates environment variables based on your .env file. See [.env.example](https://github.com/drupal-composer/drupal-project/blob/8.x/.env.example).
+
+```text
+// utilisation du kickstarter drupal-composer/drupal-project => github
+composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stability dev --no-interaction
+
+// pour notre projet, on se place dans le répertoire WWW et on lance la commande :
+composer create-project drupal-composer/drupal-project:8.x-dev drupal8_dev1 --stability dev --no-interaction
+```
 
 ## Documentations
 
