@@ -7,7 +7,9 @@
 
 #### Vidéos
 
-[Drupal 8 Developer Prep](https://buildamodule.com/collection/drupal-8-developer-prep) \(tuto vidéos payant, certaines gratuites, à voir\)
+[Drupal 8 Developer Prep](https://buildamodule.com/collection/drupal-8-developer-prep) \(tuto vidéos payant, certaines gratuites, à voir\)  
+[Module Development Essentials](https://drupalize.me/series/module-development-essentials) \(drupalize / payant\)  
+
 
 ## Ressources Web FR
 
