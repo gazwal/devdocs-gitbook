@@ -40,8 +40,7 @@ var 01 = "hello"
 
 ## Opérations simples
 
-{% tabs %}
-{% tab title="" %}
+{% code title="" %}
 ```javascript
 // javascript est un language faiblement typé
 3 + 4 // 7
@@ -50,8 +49,7 @@ var 01 = "hello"
 "3" * "3" // 9
 "Salut les gens" * 4 // NaN (Not a Number)
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ## Tableau
 
