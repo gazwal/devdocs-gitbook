@@ -2,9 +2,9 @@
 
 ## Vue.js Tutos Vidéo
 
-{% embed url="https://scrimba.com/playlist/pXKqta" %}
-
-{% embed url="https://scrimba.com/g/glearnvue" %}
+[Learn Vue 2: Step By Step](https://www.youtube.com/watch?v=Y05uRiksXXI&list=PL3VM-unCzF8iRyPotjFsgy7EfuCITvr_3) \(EN / playlist YT / janvier 20018\)  
+[Vue.js Tutorials From The Official Vue Docs](https://scrimba.com/playlist/pXKqta) \(EN / tuto en vrac sur scrimba.com\)  
+[Learn Vue.js for free](https://scrimba.com/g/glearnvue) \(EN / série de 11 tuto sur scrimba.com\)
 
 ## PWA with vuejs
 
