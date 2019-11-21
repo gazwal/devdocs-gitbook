@@ -21,6 +21,7 @@
   * [Ruby / rbenv / Bundler](dev-tools/ruby-rbenv-bundler.md)
 * [Drupal 8](drupal-8/README.md)
   * [Install & Composer](drupal-8/install-and-composer.md)
+  * [Theming](drupal-8/theming.md)
   * [DEV de modules](drupal-8/ressources-dev-modules.md)
   * [API](drupal-8/api.md)
 * [Wordpress](wordpress/README.md)
