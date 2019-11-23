@@ -27,7 +27,13 @@ You can set `CSS` weights with 5 different levels of styling:
 This is defined by the [SMACSS](https://smacss.com/) standard. So here if you specify theme it means that the CSS file contains theme related styling which is pure look and feel. [More info here](https://www.drupal.org/node/1887922). You **cannot** use other _keys_ as these will cause strict warnings.
 
 {% hint style="info" %}
+Drupal 8 follows a SMACSS-style categorization of its CSS rules:
 
+1. Base — CSS reset/normalize plus HTML element styling.
+2. Layout — macro arrangement of a web page, including any grid systems.
+3. Component — discrete, reusable UI elements.
+4. State — styles that deal with client-side changes to components.
+5. Theme — purely visual styling \(“look-and-feel”\) for a component.
 {% endhint %}
 
 ## Docs officielles
