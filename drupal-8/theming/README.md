@@ -1,5 +1,35 @@
 # Theming
 
+## [CSS coding standards](https://www.drupal.org/docs/develop/standards/css/css-coding-standards) / SMACSS
+
+```text
+cuddly-slider:
+  version: 1.x
+  css:
+    layout:
+      css/cuddly-slider-layout.css: {}
+    theme:
+      css/cuddly-slider-theme.css: {}
+  js:
+    js/cuddly-slider.js: {}
+```
+
+You may notice the 'layout' and 'theme' keys for css which is not present for js. This indicates the style type the css file belongs to.
+
+You can set `CSS` weights with 5 different levels of styling:
+
+* `base`: CSS reset/normalize plus HTML element styling. Key assigns a weight of `CSS_BASE = -200`
+* `layout`: macro arrangement of a web page, including any grid systems. Key assigns a weight of `CSS_LAYOUT = -100`
+* `component`: discrete, reusable UI elements. Key assigns a weight of `CSS_COMPONENT = 0`
+* `state`: styles that deal with client-side changes to components. Key assigns a weight of `CSS_STATE = 100`
+* `theme`: purely visual styling \(“look-and-feel”\) for a component. Key assigns a weight of `CSS_THEME = 200`
+
+This is defined by the [SMACSS](https://smacss.com/) standard. So here if you specify theme it means that the CSS file contains theme related styling which is pure look and feel. [More info here](https://www.drupal.org/node/1887922). You **cannot** use other _keys_ as these will cause strict warnings.
+
+{% hint style="info" %}
+
+{% endhint %}
+
 ## Docs officielles
 
 [Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 theme](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme#all-pages) \(THEME\)  
