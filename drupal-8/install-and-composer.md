@@ -1,8 +1,8 @@
 # Install & Composer
 
-## Install via [rupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project)
+## Install via [rupal-composer/**drupal-project**](https://github.com/drupal-composer/drupal-project)\*\*\*\*
 
-### **What does the template do?**
+### What does the template do?
 
 When installing the given `composer.json` some tasks are taken care of:
 
@@ -24,6 +24,12 @@ composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stabil
 // pour notre projet, on se place dans le répertoire WWW et on lance la commande :
 composer create-project drupal-composer/drupal-project:8.x-dev drupal8_dev1 --stability dev --no-interaction
 ```
+
+{% hint style="info" %}
+A noter qu'il a fallut augmenter la PHP memory\_limit dans le php.ini dans /Applications/MAMP/bin/php/php5.6.28/conf/php.ini oubien /Applications/MAMP/bin/php/php7.1.0/conf/php.ini  
+=&gt; voir ici [https://getcomposer.org/doc/articles/troubleshooting.md\#memory-limit-errors](https://getcomposer.org/doc/articles/troubleshooting.md#memory-limit-errors)  
+$ php -r "echo ini\_get\('memory\_limit'\).PHP\_EOL;"
+{% endhint %}
 
 ### Mise à jour Drupal Core
 
@@ -107,6 +113,19 @@ composer remove drupal/admin_toolbar
 
 ```
 
+### Mise à jour drupal CORE
+
+```text
+composer update drupal/core webflo/drupal-core-require-dev "symfony/*" --with-dependencies
+```
+
+Follow the steps below to update your core files.
+
+1. Run `composer update drupal/core webflo/drupal-core-require-dev "symfony/*" --with-dependencies` to update Drupal Core and its dependencies.
+2. Run `git diff` to determine if any of the scaffolding files have changed. Review the files for any changes and restore any customizations to `.htaccess` or `robots.txt`.
+3. Commit everything all together in a single commit, so `web` will remain in sync with the `core` when checking out branches or running `git bisect`.
+4. In the event that there are non-trivial conflicts in step 2, you may wish to perform these steps on a branch, and use `git merge` to combine the updated core files with your customized files. This facilitates the use of a [three-way merge tool such as kdiff3](http://www.gitshah.com/2010/12/how-to-setup-kdiff-as-diff-tool-for-git.html). This setup is not necessary if your changes are simple; keeping all of your modifications at the beginning or end of the file is a good strategy to keep merges easy.
+
 ## Documentations
 
 2018/11  
@@ -115,4 +134,6 @@ Part 2: [Managing a Drupal 8 site with Composer](https://www.morpht.com/blog/dru
 Part 3: [Converting Management of an Existing Drupal 8 Site to Composer](https://www.morpht.com/blog/drupal-and-composer-part-3-converting-management-existing-drupal-8-site-composer)  
 Part 4: [Composer for Drupal Developers](https://www.morpht.com/blog/drupal-and-composer-part-4-composer-drupal-developers)  
 
+
+### 
 
