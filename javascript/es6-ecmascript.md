@@ -4,7 +4,7 @@ description: 'Tool : Babel is a JavaScript compiler babeljs.io'
 
 # ES6 - ECMAScript 6
 
-### FR :
+FR :
 
 {% embed url="https://blog.eleven-labs.com/fr/lesnouveauteses6parti/" %}
 
@@ -19,6 +19,8 @@ description: 'Tool : Babel is a JavaScript compiler babeljs.io'
 {% embed url="https://youtu.be/5146X8FSBUQ" %}
 
 ### EN :
+
+[**Airbnb JavaScript Style Guide\(\)**](https://github.com/airbnb/javascript) **!!!!!**
 
 {% embed url="https://medium.com/@luke\_smaki/javascript-es6-classes-8a34b0a6720a" %}
 
