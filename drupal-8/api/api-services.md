@@ -16,7 +16,13 @@ Un service est un objet PHP, conçu dans le but d'atteindre un objectif spécifi
 
 #### \Drupal::service\('image.factory'\)
 
-[https://api.drupal.org/api/drupal/core!core.services.yml/service/image.factory](https://api.drupal.org/api/drupal/core!core.services.yml/service/image.factory)
+[https://api.drupal.org/api/drupal/core!core.services.yml/service/image.factory](https://api.drupal.org/api/drupal/core!core.services.yml/service/image.factory)  
+test ici =&gt; /www/gazwal-d8/modules/custom/gazwal\_utils  
+Voir aussi :  
+[Image file objects are classed](https://www.drupal.org/node/2084547)  
+[Drupal 8: rendering a image programmatically](https://vdmi.nl/blog/drupal-8-rendering-image-programmatically)  
+[Flexible image style system](https://www.drupal.org/node/2050669)  
+
 
 #### \Drupal::service\('path.current'\)
 
