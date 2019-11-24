@@ -2,7 +2,8 @@
 
 ## Docs officielles
 
-[**Creating custom modules**](https://www.drupal.org/docs/8/creating-custom-modules)\*\*\*\*
+[**Creating custom modules**](https://www.drupal.org/docs/8/creating-custom-modules)  
+****[PSR-4 namespaces and autoloading in Drupal 8](https://www.drupal.org/docs/develop/standards/psr-4-namespaces-and-autoloading-in-drupal-8)
 
 * [Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 modul](https://www.drupal.org/docs/8/creating-custom-modules/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-module)e \(MODULE\)
 * 
@@ -18,9 +19,9 @@
 
 ## Ressources web \(FR\)
 
-2018.04  
-[Les bases de la création d’un module Drupal 8](https://blog.bfrancois.com/creation-module-drupal-8/)  
+[~~Les bases de la création d’un module Drupal 8~~](https://blog.bfrancois.com/creation-module-drupal-8/)  
 [Création d’un module Drupal 8 – Controller et Routes](https://blog.bfrancois.com/creation-dun-module-drupal-8-controller-et-routes/)  
+[Drupal Console : Créer un module Drupal 8 en 30 secondes](https://www.flocondetoile.fr/blog/creer-un-module-drupal-8-en-30-secondes) \(Flocon de toile\)  
 
 
   

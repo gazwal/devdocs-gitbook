@@ -1,8 +1,7 @@
 # API - Services
 
-[Services and Dependency Injection Container](https://api.drupal.org/api/drupal/core!core.api.php/group/container/)  
-Liste de tous les services : [https://api.drupal.org/api/drupal/services/](https://api.drupal.org/api/drupal/services/)  
-
+[**Services and Dependency Injection Container**](https://api.drupal.org/api/drupal/core!core.api.php/group/container/)  
+Liste de tous les services : [https://api.drupal.org/api/drupal/services/](https://api.drupal.org/api/drupal/services/)
 
 Ressources web \(FR\)  
 [Drupal 8 : Conteneur de Services et Services](https://happyculture.coop/blog/drupal-8-conteneur-de-services-et-services) \(Happyculture\)  
@@ -14,6 +13,18 @@ Ressources web \(FR\)
 {% hint style="info" %}
 Un service est un objet PHP, conçu dans le but d'atteindre un objectif spécifique, qui effectue une sorte de tâche globale.
 {% endhint %}
+
+#### \Drupal::service\('image.factory'\)
+
+
+
+#### \Drupal::service\('path.current'\)
+
+[https://api.drupal.org/api/drupal/core!core.services.yml/service/path.current](https://api.drupal.org/api/drupal/core!core.services.yml/service/path.current)
+
+#### \Drupal::service\('path.alias\_manager'\)
+
+[https://api.drupal.org/api/drupal/core!core.services.yml/service/path.alias\_manager](https://api.drupal.org/api/drupal/core!core.services.yml/service/path.alias_manager)
 
 
 
