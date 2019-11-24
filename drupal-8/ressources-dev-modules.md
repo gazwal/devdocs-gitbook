@@ -3,7 +3,7 @@
 ## Docs officielles
 
 [**Creating custom modules**](https://www.drupal.org/docs/8/creating-custom-modules)  
-****[PSR-4 namespaces and autoloading in Drupal 8](https://www.drupal.org/docs/develop/standards/psr-4-namespaces-and-autoloading-in-drupal-8)
+****[**PSR-4 namespaces and autoloading in Drupal 8**](https://www.drupal.org/docs/develop/standards/psr-4-namespaces-and-autoloading-in-drupal-8)\*\*\*\*
 
 * [Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 modul](https://www.drupal.org/docs/8/creating-custom-modules/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-module)e \(MODULE\)
 * 

@@ -5,6 +5,10 @@
 [Discovering and Inspecting Variables in Twig Templates](https://www.drupal.org/docs/8/theming/twig/discovering-and-inspecting-variables-in-twig-templates) \(drupal.org\)  
 [Debugging Twig templates](https://www.drupal.org/node/1906392) \(drupal.org\)
 
+{% hint style="danger" %}
+Pas oublier [d'activer le debug de twig dans **development.services.yml**](../install-and-composer.md#activer-lenvironnement-de-dev-mode-debug)\*\*\*\*
+{% endhint %}
+
 [Printer des variables avec KINT](https://www.webwash.net/how-to-print-variables-using-kint-in-drupal-8/) \(activer Devel + Devel Kint\)  
 kint\(\) =&gt; The kint function prints everything at the top of the page.  
 ksm\(\) =&gt; The ksm function prints the Kint output in the message region of your theme.
