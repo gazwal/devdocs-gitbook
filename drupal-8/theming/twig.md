@@ -5,6 +5,11 @@
 [Discovering and Inspecting Variables in Twig Templates](https://www.drupal.org/docs/8/theming/twig/discovering-and-inspecting-variables-in-twig-templates) \(drupal.org\)  
 [Debugging Twig templates](https://www.drupal.org/node/1906392) \(drupal.org\)
 
+{% hint style="info" %}
+**Far and beyond the best way to deal with Viewing variables is to use Xdebug**.  
+The most often recommended approach is to use [PHPstorm and Xdebug](https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html) as the configuration is the most simple to get setup
+{% endhint %}
+
 {% hint style="danger" %}
 Pas oublier [d'activer le debug de twig dans **development.services.yml**](../install-and-composer.md#activer-lenvironnement-de-dev-mode-debug)\*\*\*\*
 {% endhint %}
