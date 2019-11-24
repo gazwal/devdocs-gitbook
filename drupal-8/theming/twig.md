@@ -2,15 +2,14 @@
 
 ## Twig Debug
 
+[Discovering and Inspecting Variables in Twig Templates](https://www.drupal.org/docs/8/theming/twig/discovering-and-inspecting-variables-in-twig-templates) \(drupal.org\)  
+[Debugging Twig templates](https://www.drupal.org/node/1906392) \(drupal.org\)
+
 [Printer des variables avec KINT](https://www.webwash.net/how-to-print-variables-using-kint-in-drupal-8/) \(activer Devel + Devel Kint\)  
 kint\(\) =&gt; The kint function prints everything at the top of the page.  
 ksm\(\) =&gt; The ksm function prints the Kint output in the message region of your theme.
 
 Utilisation avec Twig =&gt; `{{ kint(page) }`
-
-{% hint style="info" %}
-You must turn on Twig debugging for the `{{ kint() }}` function to render. Read [this page](https://www.drupal.org/node/1906392) on drupal.org to learn how.
-{% endhint %}
 
 ```php
 # using kint in twig file 
@@ -167,27 +166,6 @@ I am {{ hamburgers }}
 
 # sort an array 
 {% users|sort %}
-```
-
-## Debugging Options in Twig
-
-```text
-# using kint in twig file 
-{{ kint(page.content) }}
-
-# print variable
-{{ dump(var) }}
-
-# print all variables
-{{ dump(_context) }}
-
-# print only keys 
-{{ dump(_context|keys) }}
-
-# print formatted keys or value 
-{% for key, value in _context %}
-  <li>{{ key }}</li>
-{% endfor %}
 ```
 
 ## Additional References
