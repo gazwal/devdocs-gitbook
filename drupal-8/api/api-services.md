@@ -16,7 +16,7 @@ Un service est un objet PHP, conçu dans le but d'atteindre un objectif spécifi
 
 #### \Drupal::service\('image.factory'\)
 
-
+[https://api.drupal.org/api/drupal/core!core.services.yml/service/image.factory](https://api.drupal.org/api/drupal/core!core.services.yml/service/image.factory)
 
 #### \Drupal::service\('path.current'\)
 
