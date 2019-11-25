@@ -3,6 +3,7 @@
 * [DEV docs](README.md)
 * [PHP](php/README.md)
   * [Les bases](php/les-bases.md)
+  * [PHP POO](php/php-poo.md)
   * [Symfony 4](php/symfony-4.md)
 * [Javascript](javascript/README.md)
   * [Les bases](javascript/les-bases.md)

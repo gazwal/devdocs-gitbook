@@ -31,10 +31,6 @@ A noter qu'il a fallut augmenter la PHP memory\_limit dans le php.ini dans /Appl
 $ php -r "echo ini\_get\('memory\_limit'\).PHP\_EOL;"
 {% endhint %}
 
-### Mise à jour Drupal Core
-
-Lire la doc !! [https://github.com/drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project)
-
 ### Activer l'environnement de DEV = mode Debug
 
 =&gt; [https://www.drupalfacile.org/question/comment-mettre-drupal-8-mode-developpement-avec-settingslocalphp](https://www.drupalfacile.org/question/comment-mettre-drupal-8-mode-developpement-avec-settingslocalphp)  
