@@ -1,5 +1,5 @@
 ---
-description: 2019/11 => 5.0 - LTS 4.4.0
+description: 2019/11 => v5.0 + LTS v4.4.0
 ---
 
 # Symfony 4
@@ -7,6 +7,8 @@ description: 2019/11 => 5.0 - LTS 4.4.0
 ## Install w/ Composer
 
 [Symfony Releases](https://symfony.com/releases)
+
+**Installer une version spécifique :**
 
 ```text
 // install a full project in the 4.4.0 stable version LTS
