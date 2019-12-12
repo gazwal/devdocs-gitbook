@@ -36,9 +36,56 @@ Drupal 8 follows a SMACSS-style categorization of its CSS rules:
 5. Theme — purely visual styling \(“look-and-feel”\) for a component.
 {% endhint %}
 
-## Docs officielles
+## Javascript / Libraries
 
-[Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 theme](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme#all-pages) \(THEME\)
+[Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 theme](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme#all-pages) \(THEME\) \*\*\*  
+[La gestion des librairies avec Drupal 8](https://www.flocondetoile.fr/blog/la-gestion-des-librairies-avec-drupal-8)  
+[Drupal 8 : Gestion des librairies, Point sur le monde JS](https://happyculture.coop/blog/drupal-8-gestion-des-librairies-point-sur-le-monde-js) \*\*\* \(drupalSettings\)
+
+Attacher une librairie :
+
+```php
+// dans un template twig
+{{ attach_library('fluffiness/cuddly-slider') }}
+<div>Some fluffy markup {{ message }}</div>
+
+// ou via un preprocess
+function fluffiness_preprocess_maintenance_page(&$variables) {
+  $variables['#attached']['library'][] = 'fluffiness/cuddly-slider';
+}
+```
+
+Overrider des librairies
+
+```yaml
+libraries-override:
+  # Remplacer une librairie entière.
+  core/drupal.collapse: mytheme/collapse
+  
+  # Remplacer une ressouce par une autre.
+  subtheme/library:
+    css:
+      theme:
+        css/layout.css: css/my-layout.css
+  
+  # Supprimer une ressource.
+  drupal/dialog:
+    css:
+      theme:
+        dialog.theme.css: false
+  
+  # Supprimer une librairie entière.
+  core/modernizr: false
+```
+
+**libraries-extend** permet aux thèmes d'altérer les ressources fournies par une librairie en leur déclarant des dépendances supplémentaires.
+
+```text
+  # Extend drupal.user: add assets from flocon/user library.
+libraries-extend:
+  core/drupal.user: 
+    - flocon/user
+```
 
 ## Ressources web \(EN\)
 

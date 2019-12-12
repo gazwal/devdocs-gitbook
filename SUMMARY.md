@@ -25,6 +25,7 @@
   * [Theming](drupal-8/theming/README.md)
     * [Twig](drupal-8/theming/twig.md)
   * [DEV de modules](drupal-8/ressources-dev-modules.md)
+  * [Modules Core](drupal-8/modules-core.md)
   * [Modules Contrib](drupal-8/modules-contrib.md)
   * [API](drupal-8/api/README.md)
     * [API - Services](drupal-8/api/api-services.md)
