@@ -39,6 +39,7 @@ Drupal 8 follows a SMACSS-style categorization of its CSS rules:
 ## Javascript / Libraries
 
 [Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 theme](https://www.drupal.org/docs/8/theming/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-theme#all-pages) \(THEME\) \*\*\*  
+[Drupal ES6 Javascript Behaviors](http://slidedeck.io/danielbeeke/drupal-javascript-behaviors) \*\*\*  
 [La gestion des librairies avec Drupal 8](https://www.flocondetoile.fr/blog/la-gestion-des-librairies-avec-drupal-8)  
 [Drupal 8 : Gestion des librairies, Point sur le monde JS](https://happyculture.coop/blog/drupal-8-gestion-des-librairies-point-sur-le-monde-js) \*\*\* \(drupalSettings\)
 
