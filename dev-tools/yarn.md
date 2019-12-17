@@ -22,11 +22,17 @@ $ yarn init
 //oubien pour éviter les questions interactives (--yes or -Y)
 $ yarn init --yes
 
-// Installer un paquet en devDependencies (--dev or -D)
+// Ajouter un paquet en devDependencies (--dev or -D)
 $ yarn add webpack --dev
 
-// Installer une version spécifique
-yarn add susy@2.2.14 --exact --dev
+// Ajouter une version spécifique
+$ yarn add susy@2.2.14 --exact --dev
+
+// Ajouter un paquet Github public
+// voir https://oncletom.io/node.js/chapter-05/
+// https://docs.npmjs.com/files/package.json#git-urls-as-dependencies
+$ yarn add https://github.com/vmitsaras/js-offcanvas.git
+$ yarn add https://github.com/FrDH/mmenu-js.git#8.4.3
 
 // Lister les paquets NON à jour
 $ yarn outdated
