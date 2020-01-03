@@ -31,7 +31,7 @@ A noter qu'il a fallut augmenter la PHP memory\_limit dans le php.ini dans /Appl
 $ php -r "echo ini\_get\('memory\_limit'\).PHP\_EOL;"
 {% endhint %}
 
-### Activer l'environnement de DEV = mode Debug
+## Activer l'environnement de DEV = mode Debug
 
 =&gt; [https://www.drupalfacile.org/question/comment-mettre-drupal-8-mode-developpement-avec-settingslocalphp](https://www.drupalfacile.org/question/comment-mettre-drupal-8-mode-developpement-avec-settingslocalphp)  
 =&gt; [https://github.com/zivtech/bear\_skin/blob/8.x-2.x/docs/dev\_mode.md](https://github.com/zivtech/bear_skin/blob/8.x-2.x/docs/dev_mode.md)
@@ -83,7 +83,7 @@ dans settings.local.php, il y a des mise en cache à désactiver :
 lorsque que les caches sont désactivés, le site est très lent. A utilisé que lorsque qu'on taff sur de dev de fichiers twig ou du debug !!
 {% endhint %}
 
-### Installation, Mise à jour, Suppression
+## Installation, Mise à jour, Suppression
 
 ```text
 // Lister tous les packages outdated
@@ -109,7 +109,9 @@ composer remove drupal/admin_toolbar
 
 ```
 
-### Mise à jour drupal CORE
+## Mise à jour drupal CORE
+
+Attention, voir changement , décembre 2019
 
 ```text
 composer update drupal/core webflo/drupal-core-require-dev "symfony/*" --with-dependencies
