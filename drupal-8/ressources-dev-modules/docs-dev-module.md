@@ -1,4 +1,4 @@
-# DEV de modules
+# Docs
 
 ## Docs officielles
 
@@ -19,16 +19,4 @@
 [Drupal 8 Custom Module Architecture](https://www.youtube.com/watch?v=xJ0FA-0102s) \(video YT Lindsay Gaudinier, slide ci-dessus\)[  
 Drupal 8 Developer Prep](https://buildamodule.com/collection/drupal-8-developer-prep) \(tuto vidéos payant, certaines gratuites, à voir\)  
 [Module Development Essentials](https://drupalize.me/series/module-development-essentials) \(drupalize / payant\)
-
-## Ressources web \(FR\)
-
-[~~Les bases de la création d’un module Drupal 8~~](https://blog.bfrancois.com/creation-module-drupal-8/)  
-[Création d’un module Drupal 8 – Controller et Routes](https://blog.bfrancois.com/creation-dun-module-drupal-8-controller-et-routes/)  
-[Drupal Console : Créer un module Drupal 8 en 30 secondes](https://www.flocondetoile.fr/blog/creer-un-module-drupal-8-en-30-secondes) \(Flocon de toile\)  
-
-
-  
-
-
-
 
