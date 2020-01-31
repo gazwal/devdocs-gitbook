@@ -14,7 +14,12 @@ DÉVELOPPEUR INTÉGRATEUR WEB \(**abalone**, agence d'emploi, 44 St Herblain\)
 Contacté par Justine Thiriet au téléphone. =&gt; la recontacter pour prise de RDV pour faire le point sur mon CV  
 Justine Thiriet 07 61 90 59 64
 
-30.01.2020, RDV chez Externatic, avec Mathieu Debroise
+30.01.2020, RDV chez Externatic, avec Mathieu Debroise  
+**Mathieu DEBROISE**  
+Consultant recrutement IT @ EXTERNATIC  
+02 85 52 60 14 \| 06 83 46 10 43  
+Skype : mathieudebroise  
+Bâtiment Unik, 11 rue la Noue Bras de Fer - 44200 Nantes
 
 31.01.2020 postulé à :  
 Développeur / Intégrateur Web H/F \(francecom, agence de com Nantes\)  
