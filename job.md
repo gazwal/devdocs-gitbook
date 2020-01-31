@@ -4,13 +4,17 @@
 
 
 21.01.2020 postulé à   
-DÉVELOPPEUR INTÉGRATEUR WEB \(abalone, agence d'emploi, 44 St Herblain\)  
+DÉVELOPPEUR INTÉGRATEUR WEB \(**abalone**, agence d'emploi, 44 St Herblain\)  
 [https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200120112830](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200120112830)  
 =&gt;
 
 21.01.2020 dépot de CV chez SEYOS nantes \(cabinet de recrutement IT\)  
 Contacté par Justine Thiriet au téléphone. =&gt; la recontacter pour prise de RDV pour faire le point sur mon CV  
-=&gt;
+=&gt; 
+
+30.01.2020, RDV chez Externatic, avec Mathieu Debroise
+
+31.01.2020 postulé à 
 
 
 
