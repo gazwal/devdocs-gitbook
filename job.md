@@ -26,7 +26,10 @@ Développeur / Intégrateur Web H/F \(francecom, agence de com Nantes\)
 [https://www.indeed.fr/viewjob?jk=cd092ad29863a222&from=myjobs&tk=1dvu07g2b17i6000](https://www.indeed.fr/viewjob?jk=cd092ad29863a222&from=myjobs&tk=1dvu07g2b17i6000)  
 =&gt;
 
-
+07.02.2020 postulé à :  
+Matière Noire recrute un\(e\) développeur\(se\) WordPress  
+[https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress](https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress)  
+=&gt; 
 
 
 
