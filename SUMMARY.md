@@ -34,8 +34,10 @@
     * [API - Services](drupal-8/api/api-services.md)
     * [API - Plugins](drupal-8/api/api-plugins.md)
 * [Wordpress](wordpress/README.md)
-  * [Job](wordpress/job.md)
   * [Theming](wordpress/wp-theming.md)
+  * [Plugin](wordpress/plugin.md)
+  * [Widget](wordpress/widget.md)
+  * [API Rest](wordpress/api-rest.md)
   * [Ressources web](wordpress/ressources-web.md)
 * [JOB](job.md)
 
