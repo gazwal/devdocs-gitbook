@@ -35,7 +35,7 @@
     * [API - Plugins](drupal-8/api/api-plugins.md)
 * [Wordpress](wordpress/README.md)
   * [Theming](wordpress/wp-theming.md)
-  * [Plugin](wordpress/plugin.md)
+  * [Plugins](wordpress/plugins.md)
   * [Widget](wordpress/widget.md)
   * [API Rest](wordpress/api-rest.md)
   * [Ressources web](wordpress/ressources-web.md)
