@@ -5,10 +5,10 @@ Intégrateur / Développeur Front-End H/F \| Emploi Nantes \(Images Créations, 
 [~~https://www.imagescreations.fr/recrutement/developpeur-frontend-nantes/~~](https://www.imagescreations.fr/recrutement/developpeur-frontend-nantes/)  
 ~~=&gt; Non abouti : cause manque de compétence sur Wordpress~~
 
-21.01.2020 postulé à :  
-DÉVELOPPEUR INTÉGRATEUR WEB \(**abalone**, agence d'emploi, 44 St Herblain\)  
-[https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200120112830](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200120112830)  
-=&gt; ...
+~~21.01.2020 postulé à :  
+DÉVELOPPEUR INTÉGRATEUR WEB \(**abalone**, agence d'emploi, 44 St Herblain\)~~  
+[~~https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200120112830~~](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200120112830)  
+~~=&gt; pas de réponses, annonce supprimée ...~~
 
 21.01.2020 dépot de CV chez SEYOS nantes \(cabinet de recrutement IT\)  
 Contacté par Justine Thiriet au téléphone. =&gt; la recontacter pour prise de RDV pour faire le point sur mon CV  
@@ -21,10 +21,10 @@ Consultant recrutement IT @ EXTERNATIC
 Skype : mathieudebroise  
 Bâtiment Unik, 11 rue la Noue Bras de Fer - 44200 Nantes
 
-31.01.2020 postulé à :  
-Développeur / Intégrateur Web H/F \(francecom, agence de com Nantes\)  
-[https://www.indeed.fr/viewjob?jk=cd092ad29863a222&from=myjobs&tk=1dvu07g2b17i6000](https://www.indeed.fr/viewjob?jk=cd092ad29863a222&from=myjobs&tk=1dvu07g2b17i6000)  
-=&gt;
+~~31.01.2020 postulé à :  
+Développeur / Intégrateur Web H/F \(francecom, agence de com Nantes\)~~  
+[~~https://www.indeed.fr/viewjob?jk=cd092ad29863a222&from=myjobs&tk=1dvu07g2b17i6000~~](https://www.indeed.fr/viewjob?jk=cd092ad29863a222&from=myjobs&tk=1dvu07g2b17i6000)  
+~~=&gt; pas de réponses, annonce supprimée ...~~
 
 07.02.2020 postulé à :  
 Matière Noire recrute un\(e\) développeur\(se\) WordPress  
