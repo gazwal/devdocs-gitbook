@@ -31,6 +31,12 @@ Matière Noire recrute un\(e\) développeur\(se\) WordPress
 [https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress](https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress)  
 =&gt; 
 
+13/02/2020 postulé à :  
+Intégrateur web HTML / CSS H/F - Startup - Nantes via EXTERNATIC  
+**Publiée le:** 10/2/2020  
+[https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003](https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003)  
+=&gt; 
+
 
 
 
