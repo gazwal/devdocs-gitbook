@@ -1,4 +1,4 @@
-# Doc connexe
+# Docs annexes
 
 ## Favicon & Apple Touch Icon
 

@@ -25,7 +25,7 @@
   * [Install & Composer](drupal-8/install-and-composer.md)
   * [Theming](drupal-8/theming/README.md)
     * [Twig](drupal-8/theming/twig.md)
-    * [Doc connexe](drupal-8/theming/doc-connexe.md)
+    * [Docs annexes](drupal-8/theming/docs-annexes.md)
   * [DEV de modules](drupal-8/ressources-dev-modules/README.md)
     * [Docs](drupal-8/ressources-dev-modules/docs-dev-module.md)
   * [Modules Core](drupal-8/modules-core.md)
