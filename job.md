@@ -37,7 +37,9 @@ Intégrateur web HTML / CSS H/F - Startup - Nantes via EXTERNATIC
 [https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003](https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003)  
 =&gt; 
 
-
+17.02.2020 postulé à  :  
+[Développeur web junior \(F/H\)\_ \(Vigicorp, Nantes\)](https://www.vigicorp.fr/emplois/developpeur-web-junior)  
+=&gt;
 
 
 
