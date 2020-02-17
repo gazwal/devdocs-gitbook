@@ -27,7 +27,7 @@ Développeur / Intégrateur Web H/F \(francecom, agence de com Nantes\)~~
 ~~=&gt; pas de réponses, annonce supprimée ...~~
 
 07.02.2020 postulé à :  
-Matière Noire recrute un\(e\) développeur\(se\) WordPress  
+Matière Noire recrute un\(e\) développeur\(se\) WordPress - Matière Noire - nantes  
 [https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress](https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress)  
 =&gt; 
 
@@ -41,7 +41,17 @@ Intégrateur web HTML / CSS H/F - Startup - Nantes via EXTERNATIC
 [Développeur web junior \(F/H\)\_ \(Vigicorp, Nantes\)](https://www.vigicorp.fr/emplois/developpeur-web-junior)  
 =&gt;
 
-17.02.2020
+17.02.2020 postulé à  :  
+[Développeur web junior \(F/H\)](https://www.vigicorp.fr/emplois/developpeur-web-junior) - Vigicorp - Nantes  
+=&gt;
+
+17.02.2020 postulé à  :  
+[Développeur web junior \(F/H\)\_ \(Vigicorp, Nantes\)](https://www.vigicorp.fr/emplois/developpeur-web-junior)  
+=&gt;
+
+17.02.2020 postulé à :  
+DÉVELOPPEUR INTÉGRATEUR WEB \(abalone, agence emploi - st herblain\)  
+=&gt; 
 
 
 
