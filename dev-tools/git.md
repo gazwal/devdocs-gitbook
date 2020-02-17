@@ -16,3 +16,9 @@ $ git remote show origin
 
 ```
 
+[https://gist.github.com/bdlangton/b47be9dc85992b99d5fa1d83e93a94f8](https://gist.github.com/bdlangton/b47be9dc85992b99d5fa1d83e93a94f8) :
+
+{% embed url="https://gist.github.com/bdlangton/b47be9dc85992b99d5fa1d83e93a94f8" %}
+
+
+
