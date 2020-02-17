@@ -38,19 +38,11 @@ Intégrateur web HTML / CSS H/F - Startup - Nantes via EXTERNATIC
 =&gt; 
 
 17.02.2020 postulé à  :  
-[Développeur web junior \(F/H\)\_ \(Vigicorp, Nantes\)](https://www.vigicorp.fr/emplois/developpeur-web-junior)  
-=&gt;
-
-17.02.2020 postulé à  :  
 [Développeur web junior \(F/H\)](https://www.vigicorp.fr/emplois/developpeur-web-junior) - Vigicorp - Nantes  
 =&gt;
 
-17.02.2020 postulé à  :  
-[Développeur web junior \(F/H\)\_ \(Vigicorp, Nantes\)](https://www.vigicorp.fr/emplois/developpeur-web-junior)  
-=&gt;
-
 17.02.2020 postulé à :  
-DÉVELOPPEUR INTÉGRATEUR WEB \(abalone, agence emploi - st herblain\)  
+[DÉVELOPPEUR INTÉGRATEUR WEB](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200214114927) \(abalone, agence emploi - st herblain\)  
 =&gt; 
 
 
