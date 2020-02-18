@@ -32,6 +32,7 @@
   * [Modules Contrib](drupal-8/modules-contrib.md)
   * [API](drupal-8/api/README.md)
     * [Theme API](drupal-8/api/theme-api.md)
+    * [Cache API](drupal-8/api/cache-api.md)
     * [API - Services](drupal-8/api/api-services.md)
     * [API - Plugins](drupal-8/api/api-plugins.md)
   * [TODO Drupal](drupal-8/todo-drupal.md)
