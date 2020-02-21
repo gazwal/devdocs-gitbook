@@ -10,9 +10,5 @@ Gists de Barrett Langton =&gt; [https://gist.github.com/bdlangton](https://gist.
 
 Gists de Rikki Bochow =&gt; [https://gist.github.com/rikki-iki](https://gist.github.com/rikki-iki)
 
-Voir les articles D8 de [https://www.webfoobar.com/index.php/taxonomy/term/37](https://www.webfoobar.com/index.php/taxonomy/term/37)
-
-
-
 ##  
 

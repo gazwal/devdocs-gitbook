@@ -42,7 +42,8 @@ Intégrateur web HTML / CSS H/F - Startup - EXTERNATIC - Nantes
 =&gt;
 
 17.02.2020 postulé à :  
-[DÉVELOPPEUR INTÉGRATEUR WEB](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200214114927) - Abalone, agence emploi - st herblain  
+[DÉVELOPPEUR INTÉGRATEUR WEB](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200214114927) - ref 108200214114927  
+Abalone, agence emploi - st herblain  
 =&gt; 
 
 
