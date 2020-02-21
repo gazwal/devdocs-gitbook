@@ -55,6 +55,7 @@ function fluffiness_page_attachments(array &$attachments)
 `hook_page_attachments()` permet aussi d'attacher des librairies, voir [Adding stylesheets \(CSS\) and JavaScript \(JS\) to a Drupal 8 module](https://www.drupal.org/docs/8/creating-custom-modules/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-module)
 
 ```php
+// exemple dans l'API drupal
 function hook_page_attachments(array &$attachments)
 {
   // Unconditionally attach an asset to the page.
