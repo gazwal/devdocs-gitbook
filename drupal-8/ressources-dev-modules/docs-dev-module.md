@@ -20,3 +20,17 @@
 Drupal 8 Developer Prep](https://buildamodule.com/collection/drupal-8-developer-prep) \(tuto vidéos payant, certaines gratuites, à voir\)  
 [Module Development Essentials](https://drupalize.me/series/module-development-essentials) \(drupalize / payant\)
 
+## CODE sur Github !!
+
+Examples for Drupal 8 modules : [https://github.com/wizzlern/drupal8-demo](https://github.com/wizzlern/drupal8-demo) \(2015\)
+
+Examples / practice Drupal 8 modules and themes : [https://github.com/daggerhart/drupal8\_examples](https://github.com/daggerhart/drupal8_examples) \(2018\)
+
+Drupal8 Custom CRUD Module : [https://github.com/malaynayak/drupal8-employee-crud-module](https://github.com/malaynayak/drupal8-employee-crud-module) \(2019\)
+
+drupal8-weather-module : [https://github.com/omerida/drupal8-weather-module](https://github.com/omerida/drupal8-weather-module) \(2017\)
+
+drupal8-module-theme-example : [https://github.com/maijabarnett/drupal8-module-theme-example](https://github.com/maijabarnett/drupal8-module-theme-example)
+
+drupal8-helloworld : [https://github.com/HouzuoGuo/drupal8-helloworld](https://github.com/HouzuoGuo/drupal8-helloworld)
+
