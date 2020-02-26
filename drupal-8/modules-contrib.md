@@ -2,8 +2,7 @@
 
 ## Dev tools / Drush / Console ...
 
-Drupal console : [https://drupalconsole.com/](https://drupalconsole.com/)  
-
+Drupal console : [https://drupalconsole.com/](https://drupalconsole.com/)
 
 {% hint style="info" %}
 À noter que les templates d'installation via composer, comme [Drupal Project](https://github.com/drupal-composer/drupal-project), possèdent déjà Drupal Console en dépendance.
