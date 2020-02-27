@@ -34,3 +34,5 @@ drupal8-module-theme-example : [https://github.com/maijabarnett/drupal8-module-t
 
 drupal8-helloworld : [https://github.com/HouzuoGuo/drupal8-helloworld](https://github.com/HouzuoGuo/drupal8-helloworld)
 
+[https://github.com/JoakimMalmberg/Drupal8Modules](https://github.com/JoakimMalmberg/Drupal8Modules)
+
