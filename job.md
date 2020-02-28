@@ -58,7 +58,10 @@ Abalone, agence emploi - st herblain
 [https://www.kookline.net/recrutement/\#recrutement](https://www.kookline.net/recrutement/#recrutement)  
 =&gt;
 
-
+28.02.2020 postulé à :  
+[Développeur Drupal \(H/F\)](https://www.welcometothejungle.com/fr/companies/expertime/jobs/developpeur-drupal-h-f_nantes) - Nantes - CDI - expertime - nantes  
+via welcometo the jungle  
+=&gt;
 
 
 
