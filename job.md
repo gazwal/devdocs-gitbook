@@ -33,18 +33,30 @@ Matière Noire recrute un\(e\) développeur\(se\) WordPress - Matière Noire - N
 
 13/02/2020 postulé à :  
 Intégrateur web HTML / CSS H/F - Startup - EXTERNATIC - Nantes  
-**Publiée le:** 10/2/2020  
 [https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003](https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003)  
 =&gt; 
 
 17.02.2020 postulé à  :  
 [Développeur web junior \(F/H\)](https://www.vigicorp.fr/emplois/developpeur-web-junior) - Vigicorp - Nantes  
-=&gt;
+=&gt; relance le 28.02.2020
 
-17.02.2020 postulé à :  
-[DÉVELOPPEUR INTÉGRATEUR WEB](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200214114927) - ref 108200214114927  
+~~17.02.2020 postulé à :~~  
+[~~DÉVELOPPEUR INTÉGRATEUR WEB~~](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200214114927) ~~- ref 108200214114927  
+Abalone, agence emploi - st herblain  
+=&gt; offre supprimé, c'est la même offre qui change de ref à chaque fois !!~~
+
+28.02.2020 postulé à :  
+[DÉVELOPPEUR INTÉGRATEUR WEB](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200224093721) - ref 108200224093721  
 Abalone, agence emploi - st herblain  
 =&gt; 
+
+28.02.2020 postulé à  :  
+[Développeur-se Drupal](https://www.tangkoko.com/jobs) - Tangkoko - nantes  
+=&gt; 
+
+28.02.2020 candidature spontanée à : Kookline - nantes  
+[https://www.kookline.net/recrutement/\#recrutement](https://www.kookline.net/recrutement/#recrutement)  
+=&gt;
 
 
 
