@@ -63,7 +63,9 @@ Abalone, agence emploi - st herblain
 via welcometo the jungle  
 =&gt;
 
-
+28.02.2020 postulé à :  
+[CONCEPTEUR DEVELOPPEUR D’APPLICATION EN ALTERNANCE](https://www.indeed.fr/viewjob?jk=b33ae1fe30ad97f8&from=myjobs&tk=1e26k290b15ku000) - ENI - nantes - Alternance dans entreprise sur Challans  
+=&gt;
 
 
 
