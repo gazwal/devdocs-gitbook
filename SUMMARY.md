@@ -33,6 +33,7 @@
   * [API](drupal-8/api/README.md)
     * [Theme API](drupal-8/api/theme-api.md)
     * [Cache API](drupal-8/api/cache-api.md)
+    * [Migrate API](drupal-8/api/migrate-api.md)
     * [API - Services](drupal-8/api/api-services.md)
     * [API - Plugins](drupal-8/api/api-plugins.md)
   * [TODO Drupal](drupal-8/todo-drupal.md)
