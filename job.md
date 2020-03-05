@@ -52,6 +52,7 @@ Abalone, agence emploi - st herblain
 
 28.02.2020 postulé à  :  
 [Développeur-se Drupal](https://www.tangkoko.com/jobs) - Tangkoko - nantes  
+=&gt; RDV tél avec Vincent Decrombecque  
 =&gt; 
 
 28.02.2020 candidature spontanée à : Kookline - nantes  
@@ -65,7 +66,22 @@ via welcome to the jungle
 
 28.02.2020 postulé à :  
 [CONCEPTEUR DEVELOPPEUR D’APPLICATION EN ALTERNANCE](https://www.indeed.fr/viewjob?jk=b33ae1fe30ad97f8&from=myjobs&tk=1e26k290b15ku000) - ENI - nantes - Alternance dans entreprise sur Challans  
-=&gt;
+=&gt; mail reçu de la part de ENI, il faut prendre RDV   
+_Avant de pouvoir vous positionner sur une éventuelle offre auprès d’une de nos entreprises partenaires, il est nécessaire que vous veniez dans un premier temps nous rencontrer à l'Ecole.  
+Pour cela, il vous suffit de choisir une des dates indiquées via le lien suivant :_ [_https://www.eni-ecole.fr/inscription_](https://www.eni-ecole.fr/inscription)
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
