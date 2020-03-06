@@ -70,7 +70,9 @@ via welcome to the jungle
 _Avant de pouvoir vous positionner sur une éventuelle offre auprès d’une de nos entreprises partenaires, il est nécessaire que vous veniez dans un premier temps nous rencontrer à l'Ecole.  
 Pour cela, il vous suffit de choisir une des dates indiquées via le lien suivant :_ [_https://www.eni-ecole.fr/inscription_](https://www.eni-ecole.fr/inscription)
 
-  
+2020.03.06 postulé à :  
+[Intégrateur web H/F](https://www.indeed.fr/viewjob?jk=7d2cfe044f60e59a&from=myjobs&tk=1e2nhut3q9scp800) - FMC Production - Nantes  
+=&gt;  
 
 
 
