@@ -31,38 +31,39 @@ Matière Noire recrute un\(e\) développeur\(se\) WordPress - Matière Noire - N
 [~~https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress~~](https://www.matierenoire.io/actualite/matiere-noire-recrute-une-developpeurse-wordpress)  
 ~~=&gt; poste pourvu, avant même d'avoir un RDV~~
 
-13/02/2020 postulé à :  
-Intégrateur web HTML / CSS H/F - Startup - EXTERNATIC - Nantes  
-[https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003](https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003)  
-=&gt; 
+~~13/02/2020 postulé à :  
+Intégrateur web HTML / CSS H/F - Startup - EXTERNATIC - Nantes~~  
+[~~https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003~~](https://externatic.jobs.net/fr-FR/job/integrateur-web-html-css-h-f-startup/J3M0ND6S9DPHYR02QF1?idpartenaire=20003)  
+~~=&gt; pas eu de réponse~~
 
-17.02.2020 postulé à  :  
-[Développeur web junior \(F/H\)](https://www.vigicorp.fr/emplois/developpeur-web-junior) - Vigicorp - Nantes  
-=&gt; relance le 28.02.2020
+~~17.02.2020 postulé à  :~~  
+[~~Développeur web junior \(F/H\)~~](https://www.vigicorp.fr/emplois/developpeur-web-junior) ~~- Vigicorp - Nantes  
+=&gt; relance le 28.02.2020  
+=&gt; pas eu de réponse malgré relance par mail~~
 
 ~~17.02.2020 postulé à :~~  
 [~~DÉVELOPPEUR INTÉGRATEUR WEB~~](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200214114927) ~~- ref 108200214114927  
 Abalone, agence emploi - st herblain  
 =&gt; offre supprimé, c'est la même offre qui change de ref à chaque fois !!~~
 
-28.02.2020 postulé à :  
-[DÉVELOPPEUR INTÉGRATEUR WEB](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200224093721) - ref 108200224093721  
+~~28.02.2020 postulé à :~~  
+[~~DÉVELOPPEUR INTÉGRATEUR WEB~~](https://www.abalone-interim.com/fr/candidat-interimaire/consulter-les-offres/108200224093721) ~~- ref 108200224093721  
 Abalone, agence emploi - st herblain  
-=&gt; 
+=&gt; pas eu de réponse~~
 
-28.02.2020 postulé à  :  
-[Développeur-se Drupal](https://www.tangkoko.com/jobs) - Tangkoko - nantes  
+~~28.02.2020 postulé à  :~~  
+[~~Développeur-se Drupal~~](https://www.tangkoko.com/jobs) ~~- Tangkoko - nantes  
 =&gt; RDV tél avec Vincent Decrombecque  
-=&gt; 
+=&gt; réponse négative via téléphone une semaine plus tard suite à relance de ma part~~
 
-28.02.2020 candidature spontanée à : Kookline - nantes  
-[https://www.kookline.net/recrutement/\#recrutement](https://www.kookline.net/recrutement/#recrutement)  
-=&gt;
+~~28.02.2020 candidature spontanée à : Kookline - nantes~~  
+[~~https://www.kookline.net/recrutement/\#recrutement~~](https://www.kookline.net/recrutement/#recrutement)  
+~~=&gt; pas eu de réponse~~
 
-28.02.2020 postulé à :  
-[Développeur Drupal \(H/F\)](https://www.welcometothejungle.com/fr/companies/expertime/jobs/developpeur-drupal-h-f_nantes) - Nantes - CDI - expertime - nantes  
+~~28.02.2020 postulé à :~~  
+[~~Développeur Drupal \(H/F\)~~](https://www.welcometothejungle.com/fr/companies/expertime/jobs/developpeur-drupal-h-f_nantes) ~~- Nantes - CDI - expertime - nantes  
 via welcome to the jungle  
-=&gt;
+=&gt; pas eu de réponse~~
 
 28.02.2020 postulé à :  
 [CONCEPTEUR DEVELOPPEUR D’APPLICATION EN ALTERNANCE](https://www.indeed.fr/viewjob?jk=b33ae1fe30ad97f8&from=myjobs&tk=1e26k290b15ku000) - ENI - nantes - Alternance dans entreprise sur Challans  
@@ -70,9 +71,11 @@ via welcome to the jungle
 _Avant de pouvoir vous positionner sur une éventuelle offre auprès d’une de nos entreprises partenaires, il est nécessaire que vous veniez dans un premier temps nous rencontrer à l'Ecole.  
 Pour cela, il vous suffit de choisir une des dates indiquées via le lien suivant :_ [_https://www.eni-ecole.fr/inscription_](https://www.eni-ecole.fr/inscription)
 
-2020.03.06 postulé à :  
-[Intégrateur web H/F](https://www.indeed.fr/viewjob?jk=7d2cfe044f60e59a&from=myjobs&tk=1e2nhut3q9scp800) - FMC Production - Nantes  
-=&gt;  
+~~2020.03.06 postulé à :~~  
+[~~Intégrateur web H/F~~](https://www.indeed.fr/viewjob?jk=7d2cfe044f60e59a&from=myjobs&tk=1e2nhut3q9scp800) ~~- FMC Production - Nantes  
+=&gt; pas eu de réponse~~
+
+  
 
 
 
