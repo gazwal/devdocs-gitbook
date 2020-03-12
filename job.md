@@ -75,7 +75,10 @@ Pour cela, il vous suffit de choisir une des dates indiquées via le lien suivan
 [~~Intégrateur web H/F~~](https://www.indeed.fr/viewjob?jk=7d2cfe044f60e59a&from=myjobs&tk=1e2nhut3q9scp800) ~~- FMC Production - Nantes  
 =&gt; pas eu de réponse~~
 
-  
+2020.03.12 postulé à :  
+[Développeur.se Drupal \(F/H - CDI 39h\)](https://www.b17.fr/recrutement)  
+L'agence B17 recherche son futur développeur Drupal  
+=&gt;   
 
 
 
