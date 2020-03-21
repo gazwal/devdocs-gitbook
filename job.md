@@ -81,6 +81,11 @@ L'agence B17 recherche son futur développeur Drupal
 =&gt;   
 
 
+2020.03.21 postulé à  
+[Développeur Web / intégrateur Wordpress](https://www.indeed.fr/voir-emploi?alid=5d921eb574c76818d7a15880&from=ja%2CiaBackPress&jk=fae736b0b5b41b5c&l=Nantes%20%2844%29&q=d%C3%A9veloppeur%20web&rgtk=1e3v0pgg50e6i001&tk=1e3v0pgg50e6i001&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails) \(francecom, agence nantes\)  
+=&gt;  
+
+
 
 
 
