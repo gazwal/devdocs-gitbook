@@ -87,10 +87,12 @@ L'agence B17 recherche son futur développeur Drupal
 
 
 Alternant Monteur Câbleur H/F - Challans - SPIE  
-[https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f\_15689.aspx\#ancrecontenu](https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f_15689.aspx#ancrecontenu)
+[https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f\_15689.aspx\#ancrecontenu](https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f_15689.aspx#ancrecontenu)  
+=&gt; 
 
 Alternant Monteur Câbleur H/F - Carquefou - SPIE  
-[https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f\_15688.aspx\#ancrecontenu](https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f_15688.aspx#ancrecontenu)
+[https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f\_15688.aspx\#ancrecontenu](https://www.join.spie-job.com/offre-de-emploi/emploi-alternant-monteur-cableur-h-f_15688.aspx#ancrecontenu)  
+=&gt; réponse négative par mail le 17/04/2020
 
 
 
