@@ -13,6 +13,21 @@ $ git push origin master
 // A good way to have a synthetic view of what's going on "origin"
 $ git remote show origin
 
+```
+
+GIT TAG  
+[https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+
+```text
+// créer un tag
+$ git tag 2020.04.28
+
+// lister les tags
+$ git tag
+2020.04.28
+
+// pousser un tag
+$ git push origin 2020.04.28
 
 ```
 
