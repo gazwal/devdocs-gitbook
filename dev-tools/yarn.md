@@ -37,9 +37,21 @@ $ yarn add https://github.com/FrDH/mmenu-js.git#8.4.3
 // Lister les paquets NON à jour
 $ yarn outdated
 
+// mettre à jour un paquet
+// (pas de maj de package.json)
+// gulp-sass    4.0.2   4.1.0  4.1.0
+$ yarn upgrade gulp-sass
+
+
 // Mettre à jour un paquet à sa dernière version
 // (ça outrepasse le premier chiffre de version)
+// (pas de maj de package.json)
 // gulp-autoprefixer 6.1.0   6.1.0  7.0.1
 $ yarn upgrade gulp-autoprefixer --latest
+
+//
 ```
+
+Problème de mise à jour du package.json :  
+[Why Running \`yarn upgrade\` Does Not Update My \`package.json\`](https://dev.to/wgao19/why-running-yarn-upgrade-does-not-update-my-package-json-3mon)
 
