@@ -16,9 +16,22 @@ $ git remote show origin
 ```
 
 GIT TAG :  
-[https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)  
-Adding an existing project to GitHub using the command line :  
+[https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+
+
+
+### GITHUB
+
+**Adding an existing project to GitHub using the command line :**  
 [https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
+
+```text
+// push an existing repository from the command line
+git remote add origin https://github.com/gazwal/xxs-evc.git
+git push -u origin master
+```
+
+
 
 ```text
 // créer un tag
