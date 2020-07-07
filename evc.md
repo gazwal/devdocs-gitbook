@@ -5,7 +5,7 @@ description: JUIN 2020 - eVisa Center
 # EVC
 
 {% hint style="danger" %}
-ATTENTION : merci de supprimer la plupart des commentaires HTML pour la mise en production ;-\)  
+ATTENTION : merci de supprimer la plupart des commentaires HTML lors de la mise en production ;-\)  
 `<!-- Bla Bla Bla Commentaire HTML Bla Bla Bla -->`
 {% endhint %}
 
