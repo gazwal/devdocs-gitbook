@@ -4,7 +4,16 @@ description: JUIN 2020 - eVisa Center
 
 # EVC
 
+{% hint style="danger" %}
+ATTENTION : merci de supprimer la plupart des commentaires HTML pour la mise en production ;-\)  
+`<!-- Bla Bla Bla Commentaire HTML Bla Bla Bla -->`
+{% endhint %}
+
 ## Librairies utilisées :
+
+
+
+
 
 EVC : version de Bootstrap = 4.5.0  
  [https://blog.getbootstrap.com/2020/05/12/bootstrap-4-5-0/](https://blog.getbootstrap.com/2020/05/12/bootstrap-4-5-0/)  
