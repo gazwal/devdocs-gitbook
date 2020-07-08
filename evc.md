@@ -4,23 +4,49 @@ description: JUIN 2020 - eVisa Center
 
 # EVC
 
+Site de DEV ici : [http://gazwal.alwaysdata.net/EVC/evc-pages](http://gazwal.alwaysdata.net/EVC/evc-pages/)
+
+Page Pays : [http://gazwal.alwaysdata.net/EVC/evc-pages/pays.php](http://gazwal.alwaysdata.net/EVC/evc-pages/pays.php)
+
 {% hint style="danger" %}
-ATTENTION : merci de supprimer la plupart des commentaires HTML lors de la mise en production ;-\)  
+ATTENTION : merci de supprimer la plupart des commentaires HTML dans le code pour la mise en production ;-\)  
 `<!-- Bla Bla Bla Commentaire HTML Bla Bla Bla -->`
 {% endhint %}
 
-## Librairies utilisées :
+## Librairies, CSS, JS :
 
+Voir les fichiers :  
+.**./evc-include/inc-head.php  
+../evc-include/inc-footer-scripts.php**  
+  
+NB : toutes les pages ont le même "template" et chargent les mêmes librairies, CSS, JS
 
+## jQuery
 
+Utilisation de jQuery 3.5.1 comme recommandé dans la doc Bootstrap 4.5.x :  
+[https://getbootstrap.com/docs/4.5/getting-started/introduction/\#js](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js)
 
+## Bootstrap
 
-EVC : version de Bootstrap = 4.5.0  
- [https://blog.getbootstrap.com/2020/05/12/bootstrap-4-5-0/](https://blog.getbootstrap.com/2020/05/12/bootstrap-4-5-0/)  
- [https://getbootstrap.com/docs/4.5/getting-started/introduction/](https://getbootstrap.com/docs/4.5/getting-started/introduction/)  
- Les CSS sont compilées via SASS ../sass/bootstrap.scss  
- ce qui nous donne au final la feuille CSS =&gt; `../evc-css/bootstrap.min.css`  
- JS bootstrap ici =&gt; ../evc-lib/js/bootstrap.min.js
+ Utilisation de la dernière version de Bootstrap =&gt; 4.5.0 \(Juillet 2020\)  
+ [https://getbootstrap.com/docs/4.5/getting-started/introduction/](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+CSS compilées via SASS =&gt;   
+Version normale non minifiée = ../evc-css/bootstrap.css  
+Version minifiée de production = ../evc-css/bootstrap.min.css
+
+JS :
+
+## Google Font
+
+Chargement de la Montserrat via **nouveau** code fourni par Google :  
+[https://fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat)
+
+```text
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
+```
+
+## Font Awesome
 
 Font Awesome Pro 5.13.1  
  [https://github.com/ngdanghau/fontawesome-pro/releases/tag/5.13.1](https://github.com/ngdanghau/fontawesome-pro/releases/tag/5.13.1)  
