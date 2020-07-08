@@ -19,7 +19,7 @@ Voir les fichiers :
 .**./evc-include/inc-head.php  
 ../evc-include/inc-footer-scripts.php**  
   
-NB : toutes les pages ont le même "template" et chargent les mêmes librairies, CSS, JS
+NB : toutes les pages ont le même "template" et chargent les mêmes librairies, CSS et JS
 
 **EVC CSS :**  
 \(compilée via SASS : ../sass/evc-styles.scss\)  
@@ -69,8 +69,15 @@ Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à 
 ../evc-css/bootstrap-select.min.css =&gt; version minifiée de production
 
 **JS :**  
-../evc-lib/js/bootstrap-select.min.js  
-+ code custom dans EVC JS =&gt; ../evc-js/evc.js
+../evc-lib/js/bootstrap-select.min.js
+
+## Slick carousel
+
+{% embed url="https://kenwheeler.github.io/slick/" %}
+
+Utilisé pour le carousel / slider :  
+- en page d'accueil =&gt; section.home-01  
+- dans le sidebar =&gt; 
 
 ## Google Font
 
