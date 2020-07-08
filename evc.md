@@ -31,11 +31,25 @@ Utilisation de jQuery 3.5.1 comme recommandé dans la doc Bootstrap 4.5.x :
  Utilisation de la dernière version de Bootstrap =&gt; 4.5.0 \(Juillet 2020\)  
  [https://getbootstrap.com/docs/4.5/getting-started/introduction/](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
-CSS compilées via SASS =&gt;   
+**CSS compilées via SASS \(../**sass/bootstrap.scss\) **:**  
 Version normale non minifiée = ../evc-css/bootstrap.css  
 Version minifiée de production = ../evc-css/bootstrap.min.css
 
-JS :
+**JS :**  
+utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js \(requis pour utiliser bootstrap-select\)
+
+## Bootstrap Select
+
+Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à explorer :  
+[https://developer.snapappointments.com/bootstrap-select/](https://developer.snapappointments.com/bootstrap-select/)
+
+**demo /exemples :**  
+ [https://developer.snapappointments.com/bootstrap-select/examples/](https://developer.snapappointments.com/bootstrap-select/examples/)  
+ [https://thdoan.github.io/bootstrap-select/examples.html](https://thdoan.github.io/bootstrap-select/examples.html)
+
+**Permet aussi de mettre des drapeaux SVG dans les SELECT** =&gt; mon code utilise l'attribut data-content="" pour mettre les images, voir ici aussi :  
+ [https://developer.snapappointments.com/bootstrap-select/examples/\#custom-content](https://developer.snapappointments.com/bootstrap-select/examples/#custom-content)  
+ [https://github.com/snapappointments/bootstrap-select-temp/issues/18](https://github.com/snapappointments/bootstrap-select-temp/issues/18)
 
 ## Google Font
 
@@ -61,29 +75,7 @@ répertoire ../evc-images/country-flags/svg :
 Code des drapeaux :  
  [https://fr.wikipedia.org/wiki/ISO\_3166-1](https://fr.wikipedia.org/wiki/ISO_3166-1)
 
-## Drapeaux dans DropDownList : Jquery UI Selectmenu
-
-\(Solution testée et abandonnée\)  
- [https://jqueryui.com/selectmenu/\#custom\_render](https://jqueryui.com/selectmenu/#custom_render)  
- [https://stackoverflow.com/a/60000960](https://stackoverflow.com/a/60000960)
-
-## Drapeaux dans DropDownList : bootstrap-select :
-
-[https://developer.snapappointments.com/bootstrap-select/](https://developer.snapappointments.com/bootstrap-select/)  
-
-
-[https://bootstrapbay.com/blog/useful-bootstrap-4-select-picker-for-your-forms/](https://bootstrapbay.com/blog/useful-bootstrap-4-select-picker-for-your-forms/)  
- [http://jsfiddle.net/pL1sncp5/](http://jsfiddle.net/pL1sncp5/)
-
-demo /exemples :  
- [https://developer.snapappointments.com/bootstrap-select/examples/](https://developer.snapappointments.com/bootstrap-select/examples/)  
- [https://thdoan.github.io/bootstrap-select/examples.html](https://thdoan.github.io/bootstrap-select/examples.html)  
-
-
-mon code utilise l'attribut data-content="" pour mettre les images :  
- [https://developer.snapappointments.com/bootstrap-select/examples/\#custom-content](https://developer.snapappointments.com/bootstrap-select/examples/#custom-content)  
- [https://github.com/snapappointments/bootstrap-select-temp/issues/18](https://github.com/snapappointments/bootstrap-select-temp/issues/18)  
-
+## 
 
 ## Popup
 
