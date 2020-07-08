@@ -33,7 +33,8 @@ NB : toutes les pages ont le même "template" et chargent les mêmes librairies,
 
 Utilisation de jQuery 3.5.1 comme recommandé dans la doc Bootstrap 4.5.x :  
 [https://getbootstrap.com/docs/4.5/getting-started/introduction/\#js](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js)  
-../evc-lib/js/jquery-3.5.1.min.js
+**JS :**  
+../evc-lib/js/jquery-3.5.1.min.js =&gt; version minifiée de production
 
 ## Bootstrap
 
@@ -48,7 +49,7 @@ Utilisation de jQuery 3.5.1 comme recommandé dans la doc Bootstrap 4.5.x :
 **JS :**  
 utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js  
 \(requis pour utiliser bootstrap-select\)  
-../evc-lib/js/bootstrap.bundle.min.js
+../evc-lib/js/bootstrap.bundle.min.js =&gt; version minifiée de production
 
 ## Bootstrap-Select
 
@@ -69,7 +70,7 @@ Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à 
 ../evc-css/bootstrap-select.min.css =&gt; version minifiée de production
 
 **JS :**  
-../evc-lib/js/bootstrap-select.min.js
+../evc-lib/js/bootstrap-select.min.js =&gt; version minifiée de production
 
 ## Slick carousel
 
@@ -77,12 +78,17 @@ Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à 
 
 Utilisé pour le carousel / slider :  
 - en page d'accueil =&gt; section.home-01  
-- dans le sidebar =&gt; 
+- dans le sidebar =&gt; ../evc-include/inc-aside-page-pays.php
+
+CSS :  
+
 
 ## Google Font
 
-Chargement de la Montserrat via **nouveau** code fourni par Google :  
+Chargement de la police Montserrat via **nouveau** code fourni par Google :  
 [https://fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat)
+
+voir ../evc-include/inc-head.php
 
 ```text
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap">
@@ -90,9 +96,14 @@ Chargement de la Montserrat via **nouveau** code fourni par Google :
 
 ## Font Awesome
 
-Font Awesome Pro 5.13.1  
- [https://github.com/ngdanghau/fontawesome-pro/releases/tag/5.13.1](https://github.com/ngdanghau/fontawesome-pro/releases/tag/5.13.1)  
- =&gt; ../evc-lib/css/fontawesome.min.css
+Utilisation de Font Awesome Pro 5.13.1 \(Juillet 2020\)  
+ [https://github.com/ngdanghau/fontawesome-pro/releases/tag/5.13.1](https://github.com/ngdanghau/fontawesome-pro/releases/tag/5.13.1)
+
+**CSS :**  
+../evc-lib/css/fontawesome.all.min.css =&gt; version minifiée de production
+
+NB : Hosting Font Awesome Yourself  
+[https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 
 ## Drapeaux des pays au format SVG
 
