@@ -53,7 +53,7 @@ utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js
 
 ## Bootstrap-Select
 
-Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à explorer :  
+Permet la re-écriture des SELECT via javascript; et rajoute de nombreuses fonctionnalités, à explorer :  
 [https://developer.snapappointments.com/bootstrap-select/](https://developer.snapappointments.com/bootstrap-select/)
 
 **demo /exemples :**  
