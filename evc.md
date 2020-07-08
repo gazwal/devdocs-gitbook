@@ -21,24 +21,35 @@ Voir les fichiers :
   
 NB : toutes les pages ont le même "template" et chargent les mêmes librairies, CSS, JS
 
+**EVC CSS :**  
+\(compilée via SASS : ../sass/evc-styles.scss\)  
+../evc-css/evc-styles.css =&gt; version normale non minifiée  
+../evc-css/evc-styles.min.css =&gt; version minifiée de production
+
+**EVC JS :**  
+../evc-js/evc.js
+
 ## jQuery
 
 Utilisation de jQuery 3.5.1 comme recommandé dans la doc Bootstrap 4.5.x :  
-[https://getbootstrap.com/docs/4.5/getting-started/introduction/\#js](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js)
+[https://getbootstrap.com/docs/4.5/getting-started/introduction/\#js](https://getbootstrap.com/docs/4.5/getting-started/introduction/#js)  
+../evc-lib/js/jquery-3.5.1.min.js
 
 ## Bootstrap
 
  Utilisation de la dernière version de Bootstrap =&gt; 4.5.0 \(Juillet 2020\)  
  [https://getbootstrap.com/docs/4.5/getting-started/introduction/](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
-**CSS compilées via SASS \(../**sass/bootstrap.scss\) **:**  
-Version normale non minifiée = ../evc-css/bootstrap.css  
-Version minifiée de production = ../evc-css/bootstrap.min.css
+**CSS :**  
+\(compilée via SASS : ../sass/bootstrap.scss\)  
+****../evc-css/bootstrap.css =&gt; version normale non minifiée  
+../evc-css/bootstrap.min.css =&gt; version minifiée de production
 
 **JS :**  
-utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js \(requis pour utiliser bootstrap-select\)
+utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js \(requis pour utiliser bootstrap-select\)  
+../evc-lib/js/bootstrap.bundle.min.js
 
-## Bootstrap Select
+## Bootstrap-Select
 
 Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à explorer :  
 [https://developer.snapappointments.com/bootstrap-select/](https://developer.snapappointments.com/bootstrap-select/)
@@ -50,6 +61,15 @@ Permet la re-écriture des SELECT et rajoute de nombreuses fonctionnalités, à 
 **Permet aussi de mettre des drapeaux SVG dans les SELECT** =&gt; mon code utilise l'attribut data-content="" pour mettre les images, voir ici aussi :  
  [https://developer.snapappointments.com/bootstrap-select/examples/\#custom-content](https://developer.snapappointments.com/bootstrap-select/examples/#custom-content)  
  [https://github.com/snapappointments/bootstrap-select-temp/issues/18](https://github.com/snapappointments/bootstrap-select-temp/issues/18)
+
+**CSS :**  
+\(compilée via SASS : ../sass/bootstrap-select.scss\)  
+****../evc-css/bootstrap-select.css =&gt; version normale non minifiée  
+../evc-css/bootstrap-select.min.css =&gt; version minifiée de production
+
+**JS :**  
+../evc-lib/js/bootstrap-select.min.js  
++ code custom dans EVC JS =&gt; ../evc-js/evc.js
 
 ## Google Font
 
