@@ -46,8 +46,7 @@ Utilisation de jQuery 3.5.1 comme recommandé dans la doc Bootstrap 4.5.x :
 ****../evc-css/bootstrap.css =&gt; version normale non minifiée  
 ../evc-css/bootstrap.min.css =&gt; version minifiée de production
 
-**JS :**  
-utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js  
+**JS :** utilisation de **bootstrap.bundle.min.js** qui inclus Popper.js  
 \(requis pour utiliser bootstrap-select\)  
 ../evc-lib/js/bootstrap.bundle.min.js =&gt; version minifiée de production
 
@@ -81,6 +80,7 @@ Utilisé pour le carousel / slider :
 - dans le sidebar =&gt; ../evc-include/inc-aside-page-pays.php
 
 CSS :  
+  
 
 
 ## Google Font
