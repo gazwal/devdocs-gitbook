@@ -79,9 +79,16 @@ Utilisé pour le carousel / slider :
 - en page d'accueil =&gt; section.home-01  
 - dans le sidebar =&gt; ../evc-include/inc-aside-page-pays.php
 
-CSS :  
-  
+**CSS :**  
+\(compilée via SASS : ../sass/bootstrap.scss\)  
+****../evc-css/slick.css =&gt; version normale non minifiée  
+../evc-css/slick.min.css =&gt; version minifiée de production
 
+../evc-css/slick-theme.css =&gt; version normale non minifiée  
+../evc-css/slick-theme.min.css =&gt; version minifiée de production
+
+**JS :**  
+../evc-lib/slick/slick.min.js
 
 ## Google Font
 
