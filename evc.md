@@ -80,7 +80,8 @@ Utilisé pour le carousel / slider :
 - dans le sidebar =&gt; ../evc-include/inc-aside-page-pays.php
 
 **CSS :**  
-\(compilée via SASS : ../sass/bootstrap.scss\)  
+\(compilée via SASS : ../sass/slick.scss + ../sass/slick-theme.scss\)  
+  
 ****../evc-css/slick.css =&gt; version normale non minifiée  
 ../evc-css/slick.min.css =&gt; version minifiée de production
 
@@ -120,8 +121,6 @@ répertoire ../evc-images/country-flags/svg :
 
 Code des drapeaux :  
  [https://fr.wikipedia.org/wiki/ISO\_3166-1](https://fr.wikipedia.org/wiki/ISO_3166-1)
-
-## 
 
 ## Popup
 
