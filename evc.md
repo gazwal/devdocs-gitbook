@@ -122,9 +122,3 @@ répertoire ../evc-images/country-flags/svg :
 Code des drapeaux :  
  [https://fr.wikipedia.org/wiki/ISO\_3166-1](https://fr.wikipedia.org/wiki/ISO_3166-1)
 
-## Popup
-
-jQuery Popup Overlay  
- [https://dev.vast.com/jquery-popup-overlay/](https://dev.vast.com/jquery-popup-overlay/)  
-
-
