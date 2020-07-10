@@ -122,3 +122,19 @@ répertoire ../evc-images/country-flags/svg :
 Code des drapeaux :  
  [https://fr.wikipedia.org/wiki/ISO\_3166-1](https://fr.wikipedia.org/wiki/ISO_3166-1)
 
+## Input type DATE
+
+How to make  supported on all browsers? Any alternatives?  
+[https://stackoverflow.com/questions/18020950/how-to-make-input-type-date-supported-on-all-browsers-any-alternatives](https://stackoverflow.com/questions/18020950/how-to-make-input-type-date-supported-on-all-browsers-any-alternatives)
+
+Can I use  
+[https://caniuse.com/\#feat=input-datetime](https://caniuse.com/#feat=input-datetime)  
+=&gt; Safari et IE11 ne supportent pas
+
+ [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
+
+[Datepicker et accessibilité](https://blog.atalan.fr/datepicker-et-accessibilite/) "noter que la balise  qui propose nativement un Datepicker n’est pas étudiée dans le cadre de cet article. Notamment car elle n’est actuellement pas supportée par les navigateurs Internet Explorer 11 et Safari 11 sous macOS. \([Support de type="date" sur le site « Can I use ».](https://caniuse.com/#search=type%3D%22date%22)\)"
+
+Bootstrap v4 datepicker \[closed\]  
+[https://stackoverflow.com/questions/33870344/bootstrap-v4-datepicker](https://stackoverflow.com/questions/33870344/bootstrap-v4-datepicker)
+
