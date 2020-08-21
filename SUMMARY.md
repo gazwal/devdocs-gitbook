@@ -44,5 +44,6 @@
   * [API Rest](wordpress/api-rest.md)
   * [Ressources web](wordpress/ressources-web.md)
 * [JOB](job.md)
+* [JOB \#2 Candidature](job-2.md)
 * [EVC](evc.md)
 
