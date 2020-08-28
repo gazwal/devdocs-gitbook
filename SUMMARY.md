@@ -45,5 +45,6 @@
   * [Ressources web](wordpress/ressources-web.md)
 * [JOB](job.md)
 * [JOB \#2 Candidature](job-2.md)
+* [Heures de travail](heures-travail.md)
 * [EVC](evc.md)
 
