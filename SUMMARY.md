@@ -43,8 +43,7 @@
   * [Widget](wordpress/widget.md)
   * [API Rest](wordpress/api-rest.md)
   * [Ressources web](wordpress/ressources-web.md)
-* [JOB](job.md)
-* [JOB \#2 Candidature](job-2.md)
+* [JOB - Leclerc Drive](job-leclerc-drive.md)
 * [Heures de travail](heures-travail.md)
 * [EVC](evc.md)
 
