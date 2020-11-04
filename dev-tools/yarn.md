@@ -37,6 +37,9 @@ $ yarn add https://github.com/FrDH/mmenu-js.git#8.4.3
 // Lister les paquets NON à jour
 $ yarn outdated
 
+// installer les paquets via le packages.json
+$ yarn install
+
 // mettre à jour un paquet
 // (pas de maj de package.json)
 // gulp-sass    4.0.2   4.1.0  4.1.0
