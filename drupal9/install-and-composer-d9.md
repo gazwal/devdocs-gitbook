@@ -10,5 +10,9 @@ doc : [https://pantheon.io/docs/drupal-9](https://pantheon.io/docs/drupal-9)
 On the Pantheon Platform, Drupal 9 sites use [**Integrated Composer**](https://pantheon.io/docs/integrated-composer), letting you deploy your site on Pantheon with one-click updates for both upstream commits and Composer dependencies, while still receiving upstream updates.
 {% endhint %}
 
+Le template est sur Github aussi :
+
+{% embed url="https://github.com/pantheon-upstreams/drupal-project" %}
+
 
 
