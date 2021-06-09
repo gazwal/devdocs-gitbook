@@ -33,12 +33,6 @@ $ brew upgrade <formula>
 $ brew upgrade yarn
 ```
 
-#### Plein de commandes :
-
-{% embed url="https://devhints.io/homebrew" %}
-
-
-
 #### Docs :
 
 {% embed url="https://stackoverflow.com/questions/28017374/what-is-the-suggested-way-to-install-brew-node-js-io-js-nvm-npm-on-os-x" %}

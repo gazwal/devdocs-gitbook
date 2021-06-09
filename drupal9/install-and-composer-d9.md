@@ -7,7 +7,7 @@ Drupal 9 updates Drupal’s underlying dependencies like [Symfony 4.4](https://s
 doc : [https://pantheon.io/docs/drupal-9](https://pantheon.io/docs/drupal-9)
 
 {% hint style="success" %}
-On the Pantheon Platform, Drupal 9 sites use [Integrated Composer](https://pantheon.io/docs/integrated-composer), letting you deploy your site on Pantheon with one-click updates for both upstream commits and Composer dependencies, while still receiving upstream updates.
+On the Pantheon Platform, Drupal 9 sites use [**Integrated Composer**](https://pantheon.io/docs/integrated-composer), letting you deploy your site on Pantheon with one-click updates for both upstream commits and Composer dependencies, while still receiving upstream updates.
 {% endhint %}
 
 
