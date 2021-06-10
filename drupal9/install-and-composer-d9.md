@@ -1,6 +1,6 @@
 # Install & Composer
 
-### Install via pantheon.io
+## Install via pantheon.io
 
 Drupal 9 updates Drupal’s underlying dependencies like [Symfony 4.4](https://symfony.com/releases/4.4) and [Twig 2](https://twig.symfony.com/doc/2.x/index.html), removes several deprecated API functions in favor of better options, and allows everyone running Drupal 8.8+ an easy upgrade path to Drupal 9 and beyond.
 
@@ -14,5 +14,16 @@ Le template est sur Github aussi :
 
 {% embed url="https://github.com/pantheon-upstreams/drupal-project" %}
 
+## Install normal via composer
+
+Lire la doc officielle : [3.5. Using Composer to Download and Update Files](https://www.drupal.org/docs/user_guide/en/install-composer.html)
+
+```text
+// Installation de drupal dans le dossier "drupal9-composer"
+$ composer create-project drupal/recommended-project drupal9-composer
+```
+
+Autres ressources :   
+[Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)  
 
 
