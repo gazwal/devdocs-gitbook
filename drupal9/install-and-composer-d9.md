@@ -25,5 +25,7 @@ $ composer create-project drupal/recommended-project drupal9-composer
 
 Autres ressources :   
 [Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)  
+[Mettre à jour son projet Composer et envisager sereinement la montée de version à Drupal 9](https://www.kaliop.com/fr/mettre-a-jour-son-projet-composer-et-envisager-sereinement-la-montee-de-version-a-drupal-9/)  
+  
 
 
