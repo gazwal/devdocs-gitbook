@@ -25,7 +25,36 @@ $ composer create-project drupal/recommended-project drupal9-composer
 
 Autres ressources :   
 [Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)  
-[Mettre à jour son projet Composer et envisager sereinement la montée de version à Drupal 9](https://www.kaliop.com/fr/mettre-a-jour-son-projet-composer-et-envisager-sereinement-la-montee-de-version-a-drupal-9/)  
-  
+[Mettre à jour son projet Composer et envisager sereinement la montée de version à Drupal 9](https://www.kaliop.com/fr/mettre-a-jour-son-projet-composer-et-envisager-sereinement-la-montee-de-version-a-drupal-9/)
 
+## Commandes Composer w/Drupal
+
+```text
+// Installation de modules/themes
+composer require drupal/admin_toolbar
+composer require drupal/views_bulk_operations:^3.0
+composer require drupal/admin_toolbar:^2.0
+
+// Installer plusieurs modules d'un coup : on sépare avec des espaces
+$ composer require drupal/adminimal_theme:^1.5 drupal/adminimal_admin_toolbar:^1.9
+
+// Lister tous les packages outdated
+composer outdated --direct
+
+// Lister que les packages Drupal outdated
+composer outdated "drupal/*"
+
+
+
+// Mise à jour de modules/themes
+composer update drupal/admin_toolbar --with-dependencies
+composer update drupal/facets drupal/search_api drupal/views_accordion --with-dependencies
+drush updatedb
+drush cr
+
+// Suppression de modules/themes
+(après l'avoir désinstallé dans drupal !!)
+composer remove drupal/admin_toolbar
+
+```
 
