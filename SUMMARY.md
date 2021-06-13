@@ -41,6 +41,7 @@
 * [Drupal 9](drupal9/README.md)
   * [Install & Composer](drupal9/install-and-composer-d9.md)
   * [Theming](drupal9/d9-theming.md)
+  * [Module Core](drupal9/d9-module-core.md)
   * [Modules Contrib](drupal9/d9-modules-contrib.md)
 * [Wordpress](wordpress/README.md)
   * [Theming](wordpress/wp-theming.md)
