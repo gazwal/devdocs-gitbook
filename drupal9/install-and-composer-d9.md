@@ -58,3 +58,9 @@ composer remove drupal/admin_toolbar
 
 ```
 
+Installation de versions spécifiques d'un module :
+
+[https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
+[https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)  
+
+

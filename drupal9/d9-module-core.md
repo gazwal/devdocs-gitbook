@@ -4,8 +4,14 @@
 
 ... au besoin ... suite à une installation "standard" :
 
-* **Contextual Links** : Fournit des liens contextuels afin d'accéder aux tâches liées aux éléments de la page.
+* **Quick Edit** : Modification rapide du contenu.
 * **Help** : Gère l'affichage de l'aide en ligne.
+
+## Module core à installer
+
+... au besoin ... suite à une installation "standard" :
+
+* Responsive Image : Fournit un formateur d'image et une cartographie des points de rupture pour afficher des images adaptatives en utilisant l'élément HTML5 picture.
 
 ## breakpoint
 
