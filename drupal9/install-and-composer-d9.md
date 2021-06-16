@@ -27,13 +27,14 @@ Autres ressources :
 [Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)  
 [Mettre à jour son projet Composer et envisager sereinement la montée de version à Drupal 9](https://www.kaliop.com/fr/mettre-a-jour-son-projet-composer-et-envisager-sereinement-la-montee-de-version-a-drupal-9/)
 
-## Commandes Composer w/Drupal
+## Commandes Composer w/ Drupal
 
 ```text
 // Installation de modules/themes
 composer require drupal/admin_toolbar
 composer require drupal/views_bulk_operations:^3.0
 composer require drupal/admin_toolbar:^2.0
+composer require drupal/backup_migrate:5.0.0-rc2
 
 // Installer plusieurs modules d'un coup : on sépare avec des espaces
 $ composer require drupal/adminimal_theme:^1.5 drupal/adminimal_admin_toolbar:^1.9
@@ -57,4 +58,10 @@ drush cr
 composer remove drupal/admin_toolbar
 
 ```
+
+Installation de versions spécifiques d'un module :
+
+[https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
+[https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)  
+
 
