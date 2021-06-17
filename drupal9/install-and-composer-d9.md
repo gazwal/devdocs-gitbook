@@ -18,6 +18,12 @@ Le template est sur Github aussi :
 Après avec cloné le site via panthéon, il faut mettre en place un **settings.local.php**, sinon plantage du site panthéon car les infos de BDD sont commitées. Voir ci-dessous.
 {% endhint %}
 
+{% hint style="info" %}
+QUAND ya une mise à jour côté pantheon : en local on fait :  
+$ git pull =&gt; ça met à jour uniquement le composer.json donc :  
+**ne pas oublié de faire un $ composer install + update.php via l'administration**
+{% endhint %}
+
 ## Install normal via composer
 
 Lire la doc officielle : [3.5. Using Composer to Download and Update Files](https://www.drupal.org/docs/user_guide/en/install-composer.html)
