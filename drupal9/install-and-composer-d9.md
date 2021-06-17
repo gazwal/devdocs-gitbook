@@ -33,8 +33,6 @@ Autres ressources :
 [Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)  
 [Mettre à jour son projet Composer et envisager sereinement la montée de version à Drupal 9](https://www.kaliop.com/fr/mettre-a-jour-son-projet-composer-et-envisager-sereinement-la-montee-de-version-a-drupal-9/)
 
-## Commandes Composer w/ Drupal
-
 ## !!! DEV local + mode Debug !!!
 
 {% hint style="info" %}
@@ -84,7 +82,7 @@ dans settings.local.php, il y a des mise en cache à désactiver :
 lorsque que les caches sont désactivés, le site est très lent. A utilisé que lorsque qu'on taff sur de dev de fichiers twig ou du debug !!
 {% endhint %}
 
-## Commandes Composer w/Drupal
+## Commandes Composer w/ Drupal
 
 ```text
 // Installation de modules/themes
