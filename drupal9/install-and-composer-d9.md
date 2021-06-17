@@ -18,6 +18,8 @@ Le template est sur Github aussi :
 
 Lire la doc officielle : [3.5. Using Composer to Download and Update Files](https://www.drupal.org/docs/user_guide/en/install-composer.html)
 
+[Using Composer to Install Drupal and Manage Dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies#download-core-option-a)
+
 ```text
 // Installation de drupal dans le dossier "drupal9-composer"
 $ composer create-project drupal/recommended-project drupal9-composer
