@@ -1,13 +1,5 @@
 # Git
 
-## .gitignore
-
-Exemples pour la rédaction d'un .gitignore
-
-{% embed url="https://stackoverflow.com/questions/10712555/gitignore-all-files-of-extension-in-directory" %}
-
-
-
 ## GITHUB
 
 **Adding an existing project to GitHub using the command line :**  

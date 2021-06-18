@@ -41,7 +41,7 @@ Autres ressources :
 
 ## !!! DEV local + mode Debug !!!
 
-{% hint style="danger" %}
+{% hint style="info" %}
 **settings.php =&gt; settings.local.php =&gt; development.services.yml**
 {% endhint %}
 
