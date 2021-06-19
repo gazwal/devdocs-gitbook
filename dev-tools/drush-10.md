@@ -8,7 +8,7 @@ DOCS :
 
 [**Working with Drush on  MAMP**](https://www.drupal.org/node/1651282)\*\*\*\*
 
-Problèmes de connexion SQL avec Drush : _`SQLSTATE[HY000] [2002] No such file or directory`_ :
+Problèmes de connexion SQL avec Drush : _`SQLSTATE[HY000] [2002] No such file or directory`_
 
 * [J'ai \`PDOException: SQLSTATE \[HY000\] \[2002\] Aucun fichier ou répertoire de ce type\` lors de l'utilisation de drush \[fermé\]](https://qastack.fr/drupal/99446/ive-got-pdoexception-sqlstatehy000-2002-no-such-file-or-directory-when-u)
 * [https://www.drupal.org/node/1651282](https://www.drupal.org/node/1651282)
@@ -47,7 +47,9 @@ drush cr
 // https://www.drush.org/latest/commands/pm_list/
 drush pm-list --type=Module --status=enabled
 
-// Liste de tous les modules activés HORS module core
+// Liste de tous les modules activés NON-core
+// https://www.drush.org/latest/commands/pm_list/
+drush pm-list --type=Module --status=enabled --no-core
 
 ```
 
