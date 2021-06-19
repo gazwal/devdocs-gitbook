@@ -71,6 +71,11 @@ Updating to version 1.7.2 (stable channel).
    Downloading (100%)
 Use composer self-update --rollback to return to version 1.4.1
 mbprobin:~ robin$
+---------
+robin@mbprobin ~ % composer self-update
+Updating to version 2.1.3 (stable channel).
+   Downloading (100%)
+Use composer self-update --rollback to return to version 1.9.0
 ```
 
 **Commandes Composer :**
@@ -96,4 +101,10 @@ composer remove: retire une dépendance, mettant à jour les fichiers .json et .
 
 Toutes les commandes de Composer doivent être exécutées *dans le même répertoire que votre fichier composer.json*.
 ```
+
+**Pleins de commandes :**
+
+{% embed url="https://devhints.io/composer" %}
+
+
 
