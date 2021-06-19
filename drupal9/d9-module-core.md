@@ -1,5 +1,9 @@
 # Module Core
 
+Liste des modules installés par défaut lors d'une install "standard" :
+
+
+
 ## Module core à désinstaller
 
 ... au besoin ... suite à une installation "standard" :
