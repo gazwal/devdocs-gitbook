@@ -43,6 +43,7 @@
   * [Install & Composer](drupal9/d9-install-and-composer.md)
   * [Theming](drupal9/d9-theming/README.md)
     * [Javascript](drupal9/d9-theming/d9-theming-javascript.md)
+    * [Ressources](drupal9/d9-theming/d9-ressources-theming.md)
   * [Module Core](drupal9/d9-module-core.md)
   * [Modules Contrib](drupal9/d9-modules-contrib.md)
   * [Ressources](drupal9/d9-ressources.md)
