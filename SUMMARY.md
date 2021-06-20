@@ -45,6 +45,7 @@
     * [Javascript](drupal9/d9-theming/d9-theming-javascript.md)
   * [Module Core](drupal9/d9-module-core.md)
   * [Modules Contrib](drupal9/d9-modules-contrib.md)
+  * [Ressources](drupal9/d9-ressources.md)
 * [Wordpress](wordpress/README.md)
   * [Theming](wordpress/wp-theming.md)
   * [Plugins](wordpress/plugins.md)
