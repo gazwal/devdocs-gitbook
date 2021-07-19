@@ -10,8 +10,10 @@ Références des articles :
 
 ## A faire :
 
-* 19 Exercices Pour Soulager Les DOULEURS Au Nerf Sciatique!
-* Sciatique en sport et étirement du Pyramidal contre une fessalgie
+* [19 Exercices Pour Soulager Les DOULEURS Au Nerf Sciatique!](https://www.acti-v.ca/post/exercices-nerf-sciatique)
+* [Sciatique en sport et étirement du Pyramidal contre une fessalgie](https://entrainement-sportif.fr/sciatique-course-a-pied-etirement-pyramidal.htm)
 * [Étirement Fessier : TOP 5 Exercices \(+4 Erreurs à Éviter\)](https://quentin-pakiry.fr/etirement-fessier)
 * [Étirements des fessiers](https://www.fitnessheroes.fr/etirements-fessiers/)
+
+
 
