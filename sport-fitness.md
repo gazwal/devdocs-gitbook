@@ -6,6 +6,9 @@
 * [Quand le pyramidal s’en mêle ou comment se défaire d’une fausse sciatique par Agnès DUHAIL](https://www.team-outdoor.fr/blog/quand-le-pyramidal-sen-mele-ou-comment-se-defaire-dune-fausse-sciatique-par-agnes-duhail/)
 * [Sciatique en sport et étirement du Pyramidal contre une fessalgie](https://entrainement-sportif.fr/sciatique-course-a-pied-etirement-pyramidal.htm)
 * [6 exercices simples pour en finir avec les douleurs au nerf sciatique](https://chiroste-foy.com/6-exercices-nerf-sciatique/)
+* --------------------
+* [How To Workout With Sciatica Using These 8 Relaxing Poses That Offer Relief](https://www.gymguider.com/how-to-workout-with-sciatica-using-these-8-relaxing-yoga-poses-that-offer-relief/)
+* [8 Simple Stretches for Sciatica To Relieve Pain Fast](https://gethealthyu.com/stretches-to-relieve-sciatica-pain/)
 
 ## Étirements après running :
 
