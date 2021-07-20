@@ -14,6 +14,12 @@
 
 * [6 Best Stretches To Do After Running That Keep You Loose](https://www.trainfora5k.com/best-post-running-stretches/)
 * 
+## Core training :
+
+* [Core training : 11 exercices pour un corps solide](https://www.foodspring.fr/magazine/exercices-core-training)
+* [Core training : 4 exercices simples et efficaces pour renforcer le tronc](https://www.docteur-fitness.com/core-training-4-exercices-simples-et-efficaces-pour-renforcer-le-tronc)
+* [Core Training: Mon TOP 7 Exercices de Musculation \[LE Guide Complet\]](https://quentin-pakiry.fr/core-training)
+* 
 ## A faire :
 
 * [19 Exercices Pour Soulager Les DOULEURS Au Nerf Sciatique!](https://www.acti-v.ca/post/exercices-nerf-sciatique)
