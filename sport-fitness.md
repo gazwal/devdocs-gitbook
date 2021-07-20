@@ -19,6 +19,9 @@
 * [Core training : 11 exercices pour un corps solide](https://www.foodspring.fr/magazine/exercices-core-training)
 * [Core training : 4 exercices simples et efficaces pour renforcer le tronc](https://www.docteur-fitness.com/core-training-4-exercices-simples-et-efficaces-pour-renforcer-le-tronc)
 * [Core Training: Mon TOP 7 Exercices de Musculation \[LE Guide Complet\]](https://quentin-pakiry.fr/core-training)
+* [Les 10 meilleurs exercices pour votre tronc](https://www.runtastic.com/blog/fr/exercices-pour-tronc/) \*\*\*
+* [UN DOS PUISSANT &gt;&gt; 6 EXERCICES AU POIDS DU CORPS POUR LA MAISON](https://www.runtastic.com/blog/fr/musculation-du-dos/) \*\*\*
+* Faire recherche "tronc" sur runtastic : \*\*\* [https://www.runtastic.com/blog/fr?s=tronc&lang=fr](https://www.runtastic.com/blog/fr?s=tronc&lang=fr)
 * 
 ## A faire :
 
