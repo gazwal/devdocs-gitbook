@@ -45,6 +45,8 @@ $ yarn install
 // gulp-sass    4.0.2   4.1.0  4.1.0
 $ yarn upgrade gulp-sass
 
+// mettre à jour tous les paquets
+$ yarn upgrade
 
 // Mettre à jour un paquet à sa dernière version
 // (ça outrepasse le premier chiffre de version)
