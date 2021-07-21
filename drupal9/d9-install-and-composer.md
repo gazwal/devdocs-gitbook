@@ -18,10 +18,10 @@ Le template est sur Github aussi :
 Après avec cloné le site via panthéon, il faut mettre en place un **settings.local.php**, sinon plantage du site panthéon car les infos de BDD sont commitées. Voir ci-dessous.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="danger" %}
 QUAND ya une mise à jour côté pantheon : en local on fait :  
 $ git pull =&gt; ça met à jour uniquement le composer.json donc :  
-**ne pas oublié de faire un $ composer install + update.php via l'administration**
+**ne pas oublié de faire un de faire un $ composer install + update.php via l'administration**
 {% endhint %}
 
 ## Install normal via composer
@@ -31,7 +31,7 @@ Lire la doc officielle : [3.5. Using Composer to Download and Update Files](http
 [Using Composer to Install Drupal and Manage Dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies#download-core-option-a)
 
 ```text
-// Installation de drupal dans le dossier "drupal9-composer"
+// Exemple : Installation de drupal dans le dossier "drupal9-composer"
 $ composer create-project drupal/recommended-project drupal9-composer
 ```
 
