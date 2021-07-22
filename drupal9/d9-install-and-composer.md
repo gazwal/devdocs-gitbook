@@ -125,6 +125,27 @@ Installation de versions spécifiques d'un module :
 [https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
 [https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)
 
+## Upgrage d8 -&gt; d9
+
+[Upgrading from Drupal 8 to Drupal 9 \(or later\)](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-later)
+
+Site de type "tarball" :  
+_Upgrading a tarball-based site from Drupal 8 to Drupal 9 with Drush requires an older version of Drush: Drush 8. See_ [_Update core via Drush_](https://www.drupal.org/docs/8/update/update-core-via-drush) _for instructions on how to do this._
+
   
+
+
+## DDEV
+
+A tester un jour :
+
+[https://ddev.readthedocs.io/en/stable/users/cli-usage/\#drupal-9-quickstart](https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart)
+
+{% embed url="https://github.com/drud/ddev" %}
+
+
+
+{% embed url="https://ddev.readthedocs.io/en/stable/users/cli-usage/\#drupal-9-quickstart" %}
+
 
 
