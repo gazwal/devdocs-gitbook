@@ -85,7 +85,7 @@ dans settings.local.php, il y a des mise en cache à désactiver :
 - Disable Dynamic Page Cache.
 
 **ligne non commentée = le cache est désactivé**  
-lorsque que les caches sont désactivés, le site est très lent. A utilisé que lorsque qu'on taff sur de dev de fichiers twig ou du debug !!
+lorsque que les caches sont désactivés, le site est très lent. A utilisé que lorsque qu'on taff sur du DEV de fichiers twig ou du debug !!
 {% endhint %}
 
 ## Commandes Composer w/ Drupal
