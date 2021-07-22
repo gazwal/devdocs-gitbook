@@ -182,12 +182,22 @@ composer require drupal/admin_toolbar
 composer require drupal/views_bulk_operations:^3.0
 composer require drupal/admin_toolbar:^2.0
 
-// Mise à jour de modules/themes
+// Mise à jour de modules/themes spécifiques
 composer update drupal/admin_toolbar --with-dependencies
 composer update drupal/backup_migrate --with-dependencies
 // plusieurs d'un coup
 composer update drupal/facets drupal/search_api drupal/views_accordion --with-dependencies
-// + pas oublier :
+
+// Mise à jour d'un module vers une autre version ############
+// ex: backup_migrate 5.0.0-rc2 => 5.0.1 est dispo
+// composer update drupal/backup_migrate --with-dependencies NE DONNE RIEN
+// du coup on relance un $composer require
+composer require drupal/backup_migrate
+// là on a bien un "upgrade" vers 5.0.1 :
+// Upgrading drupal/backup_migrate (5.0.0-rc2 => 5.0.1)
+
+
+// ############ pas oublier pour finir :
 drush updatedb
 drush cr
 
