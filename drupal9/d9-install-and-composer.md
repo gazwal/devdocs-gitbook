@@ -125,6 +125,20 @@ Installation de versions spécifiques d'un module :
 [https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
 [https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)
 
+## Upgrade Core with Composer
+
+[Updating Drupal core via Composer](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer) \*\*\*\*
+
+```text
+// voir si on utilise le template core-recommended
+$composer show drupal/core-recommended
+```
+
+* If drupal/core-recommended is **installed**, this command returns information about the package.
+* If drupal/core-recommended is **not installed,**  this command returns "Package drupal/core-recommended not found".
+
+
+
 ## Upgrage d8 -&gt; d9
 
 [Upgrading from Drupal 8 to Drupal 9 \(or later\)](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-later)
