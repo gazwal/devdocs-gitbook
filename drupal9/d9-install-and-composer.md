@@ -168,7 +168,9 @@ $ chmod ug+w web/sites/default
 ```
 {% endhint %}
 
+#### MAJ d'un site de prod <a id="s-update-the-production-environment-when-applicable"></a>
 
+On
 
 ## MAJ Modules/Theme w/ Composer
 
