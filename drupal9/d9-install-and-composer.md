@@ -125,7 +125,7 @@ Installation de versions spécifiques d'un module :
 [https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
 [https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)
 
-## Upgrade Core with Composer
+## MAJ drupal core w/ Composer
 
 [Updating Drupal core via Composer](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer) \*\*\*\*
 
@@ -150,6 +150,51 @@ drush updatedb
 
 // Rebuild cache
 drush cache:rebuild
+```
+
+{% hint style="danger" %}
+Lors de l'upgrade en LOCAL, j'ai l'erreur :
+
+`[RuntimeException]  
+Could not delete /Users/robin/www/drupal9-composer/web/sites/default/default.services.yml`
+
+Il faut "set file permissions to allow _user_ and _group_ to write to the file on your local machine:"  
+Voir : [https://drupal.stackexchange.com/questions/290296/composer-require-fails-because-it-cant-delete-default-services-yml](https://drupal.stackexchange.com/questions/290296/composer-require-fails-because-it-cant-delete-default-services-yml)
+
+```text
+$ chmod ug+w web/sites/default
+```
+{% endhint %}
+
+
+
+## MAJ Modules/Theme w/ Composer
+
+```text
+// Lister tous les packages outdated
+composer outdated --direct
+
+// Lister que les packages Drupal outdated
+composer outdated "drupal/*"
+
+// Installation de modules/themes
+composer require drupal/admin_toolbar
+composer require drupal/views_bulk_operations:^3.0
+composer require drupal/admin_toolbar:^2.0
+
+// Mise à jour de modules/themes
+composer update drupal/admin_toolbar --with-dependencies
+composer update drupal/backup_migrate --with-dependencies
+// plusieurs d'un coup
+composer update drupal/facets drupal/search_api drupal/views_accordion --with-dependencies
+// + pas oublier :
+drush updatedb
+drush cr
+
+// Suppression de modules/themes
+(après l'avoir désinstallé dans drupal !!)
+composer remove drupal/admin_toolbar
+
 ```
 
 ## Upgrage d8 -&gt; d9
