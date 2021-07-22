@@ -131,13 +131,26 @@ Installation de versions spécifiques d'un module :
 
 ```text
 // voir si on utilise le template core-recommended
-$composer show drupal/core-recommended
+composer show drupal/core-recommended
 ```
 
 * If drupal/core-recommended is **installed**, this command returns information about the package.
 * If drupal/core-recommended is **not installed,**  this command returns "Package drupal/core-recommended not found".
 
+```text
+// Check for available Drupal update
+composer outdated "drupal/*"
 
+// UPGRADE
+// With the metapackage drupal/core-recommended
+composer update drupal/core "drupal/core-*" --with-all-dependencies
+
+// Run database update
+drush updatedb
+
+// Rebuild cache
+drush cache:rebuild
+```
 
 ## Upgrage d8 -&gt; d9
 
