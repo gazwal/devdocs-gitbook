@@ -104,6 +104,8 @@ I am {{ hamburgers }}
 
 ## Twig Functions and Filters
 
+voir [Functions - In Twig Templates](https://www.drupal.org/docs/theming-drupal/twig-in-drupal/functions-in-twig-templates) !!! \*\*\*\*\*
+
 ```php
 # strip_tags
 {{ myarray.acorn|striptags }} 
