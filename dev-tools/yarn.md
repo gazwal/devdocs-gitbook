@@ -37,6 +37,22 @@ $ yarn add https://github.com/FrDH/mmenu-js.git#8.4.3
 // Lister les paquets NON à jour
 $ yarn outdated
 
+// Lister tous les paquets de "premier niveau"
+$ yarn list --depth=0
+
+// Lister/filtrer les paquets ayant le mot "gulp" dans leur nom
+$ yarn list --pattern gulp
+
+// Lister/filtrer les paquets ayant le mot "sass" dans leur nom
+$ yarn list --pattern sass --depth=0
+yarn list v1.22.10
+├─ breakpoint-sass@2.7.1
+├─ gulp-sass-partials-imported@1.0.7
+├─ gulp-sass@4.1.1
+├─ node-sass@4.14.1
+└─ sass-graph@2.2.6
+✨  Done in 0.42s.
+
 // installer les paquets via le packages.json
 $ yarn install
 

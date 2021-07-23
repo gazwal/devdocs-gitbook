@@ -59,13 +59,7 @@ robin@mbprobin drupal9-composer % drush pm-list --type=Module --status=enabled -
 
 * **Quick Edit** : Modification rapide du contenu.
 * **Help** : Gère l'affichage de l'aide en ligne.
-* Tour : 
-* Search :
-* Comment :
-* Color :
-* Breakpoint :
-* Contact :
-* 
+
 ## Module core à installer
 
 ... au besoin ... suite à une installation "standard" :
