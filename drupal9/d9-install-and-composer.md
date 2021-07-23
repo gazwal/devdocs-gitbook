@@ -125,9 +125,11 @@ Installation de versions spécifiques d'un module :
 [https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
 [https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)
 
-## MAJ drupal core w/ Composer
+## MAJ Drupal core w/ Composer
 
 [Updating Drupal core via Composer](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer) \*\*\*\*
+
+voir aussi en fin de cet article les instructions détaillées : [Detailed update instructions](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer#update-all-steps)
 
 ```text
 // voir si on utilise le template core-recommended
@@ -166,7 +168,9 @@ $ chmod ug+w web/sites/default
 ```
 {% endhint %}
 
+#### MAJ d'un site de prod <a id="s-update-the-production-environment-when-applicable"></a>
 
+On
 
 ## MAJ Modules/Theme w/ Composer
 
@@ -225,9 +229,7 @@ A tester un jour :
 
 {% embed url="https://github.com/drud/ddev" %}
 
-
-
 {% embed url="https://ddev.readthedocs.io/en/stable/users/cli-usage/\#drupal-9-quickstart" %}
 
-
+**voir** [**docker-ddev**](../dev-tools/docker-ddev.md)\*\*\*\*
 

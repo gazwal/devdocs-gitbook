@@ -30,7 +30,6 @@
     * [Docs annexes](drupal-8/theming/docs-annexes.md)
   * [DEV de modules](drupal-8/ressources-dev-modules/README.md)
     * [Docs](drupal-8/ressources-dev-modules/docs-dev-module.md)
-  * [Modules Core](drupal-8/modules-core.md)
   * [Modules Contrib](drupal-8/modules-contrib.md)
   * [API](drupal-8/api/README.md)
     * [Theme API](drupal-8/api/theme-api.md)
