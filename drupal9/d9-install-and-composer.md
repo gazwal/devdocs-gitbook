@@ -18,6 +18,14 @@ Le template est sur Github aussi :
 Après avec cloné le site via panthéon, il faut mettre en place un **settings.local.php**, sinon plantage du site panthéon car les infos de BDD sont commitées. Voir ci-dessous.
 {% endhint %}
 
+## MISE à jour via pantheon.io
+
+1 - on applique la MAJ via l'interface d'administration  
+2 - on fait un $ git pull sur notre servion locale pour télécharger les changements  
+3 - En général, c'e'st le composer.lock qui est mis à jour  
+4 - on lance un $ composer install sur notre servion locale  
+5 - lancer un /update.php sur le site locale
+
 {% hint style="danger" %}
 QUAND ya une mise à jour côté pantheon : en local on fait :  
 $ git pull =&gt; ça met à jour uniquement le composer.json donc :  
@@ -125,9 +133,11 @@ Installation de versions spécifiques d'un module :
 [https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
 [https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)
 
-## MAJ drupal core w/ Composer
+## MAJ Drupal core w/ Composer
 
 [Updating Drupal core via Composer](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer) \*\*\*\*
+
+voir aussi en fin de cet article les instructions détaillées : [Detailed update instructions](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer#update-all-steps)
 
 ```text
 // voir si on utilise le template core-recommended
@@ -166,7 +176,9 @@ $ chmod ug+w web/sites/default
 ```
 {% endhint %}
 
+#### MAJ d'un site de prod <a id="s-update-the-production-environment-when-applicable"></a>
 
+On
 
 ## MAJ Modules/Theme w/ Composer
 
@@ -225,9 +237,7 @@ A tester un jour :
 
 {% embed url="https://github.com/drud/ddev" %}
 
-
-
 {% embed url="https://ddev.readthedocs.io/en/stable/users/cli-usage/\#drupal-9-quickstart" %}
 
-
+**voir** [**docker-ddev**](../dev-tools/docker-ddev.md)\*\*\*\*
 
