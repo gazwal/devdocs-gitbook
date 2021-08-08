@@ -4,11 +4,12 @@ Ressources "Choix de modules indispensables" :
 
 * [The 9 Drupal Modules I use on Literally Every Build in 2020](https://mikemadison.net/blog/2020/7/12/the-9-drupal-modules-i-use-on-literally-every-build-in-2020)
 * 
-## **Administration / Configuration :**
+## **Administration / Configuration / Indispensables:**
 
 * [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) `composer require drupal/admin_toolbar`
 * [Module Filter](https://www.drupal.org/project/module_filter)
-* [Backup and Migrate](https://www.drupal.org/project/backup_migrate) `composer require drupal/backup_migrate:5.0.0-rc2`
+* [Backup and Migrate](https://www.drupal.org/project/backup_migrate) `composer require drupal/backup_migrate`
+* [Pathauto](https://www.drupal.org/project/pathauto) `composer require drupal/pathauto`
 
 ## Edition de node / Back Office client
 
