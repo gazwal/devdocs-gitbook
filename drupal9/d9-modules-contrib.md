@@ -15,7 +15,8 @@ Ressources "Choix de modules indispensables" :
 
 * [Views Bulk Operations \(VBO\)](https://www.drupal.org/project/views_bulk_operations) `composer require drupal/views_bulk_operations`
 * [Meta position](https://www.drupal.org/project/meta_position) `composer require drupal/meta_position`
-
+* [Field Group](https://www.drupal.org/project/field_group) `composer require drupal/field_group`
+* 
 ## DEV / Utilitaires / Spécial / TWIG
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
