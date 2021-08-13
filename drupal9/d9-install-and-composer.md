@@ -30,11 +30,6 @@ Après avec cloné le site via panthéon, il faut mettre en place un **settings.
 QUAND ya une mise à jour côté pantheon : en local on fait :  
 $ git pull =&gt; ça met à jour uniquement le composer.json donc :  
 **ne pas oublié de faire un de faire un $ composer install + update.php via l'administration**
-
-$ git pull origin master  
-$ composer install  
-$ drush updb  
-$ drush cr
 {% endhint %}
 
 ## Install normal via composer

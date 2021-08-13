@@ -20,6 +20,11 @@ Ressources "Choix de modules indispensables" :
 ## DEV / Utilitaires / Spécial / TWIG
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
+* [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) `composer require drupal/twig_vardumper`
+* 
+## SEO
+
+* [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) `composer require drupal/simple_sitemap`
 * 
 
 
