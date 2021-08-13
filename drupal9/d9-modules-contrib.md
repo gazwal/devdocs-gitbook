@@ -21,9 +21,5 @@ Ressources "Choix de modules indispensables" :
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
 * 
-## SEO
-
-* [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) `composer require drupal/simple_sitemap`
-* 
 
 
