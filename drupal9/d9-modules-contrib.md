@@ -17,10 +17,11 @@ Ressources "Choix de modules indispensables" :
 * [Meta position](https://www.drupal.org/project/meta_position) `composer require drupal/meta_position`
 * [Field Group](https://www.drupal.org/project/field_group) `composer require drupal/field_group`
 * 
-## DEV / Utilitaires / Spécial / TWIG
+## DEV / Utilitaires / Spécials / Twig
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
 * [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) `composer require drupal/twig_vardumper`
+* [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) `composer require drupal/quick_node_clone`
 * 
 ## SEO
 
