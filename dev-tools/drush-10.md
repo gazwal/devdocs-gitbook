@@ -53,10 +53,13 @@ drush cr
 // https://www.drush.org/latest/commands/pm_list/
 drush pm-list --type=Module --status=enabled
 
-// Liste de tous les modules activés NON-core
+// Liste de tous les modules activés NON-core (= contrib)
 // https://www.drush.org/latest/commands/pm_list/
 drush pm-list --type=Module --status=enabled --no-core
 
+// list of uninstalled (contrib) modules
+// Liste des modules CONTRIB non activés/installés
+drush pm:list --type=Module --status="disabled,not installed" --no-core 
 ```
 
 
