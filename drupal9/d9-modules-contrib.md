@@ -1,11 +1,9 @@
 # Modules Contrib
 
-TODO : Ressources "Choix de modules indispensables" :
+Ressources "Choix de modules indispensables" :
 
 * [The 9 Drupal Modules I use on Literally Every Build in 2020](https://mikemadison.net/blog/2020/7/12/the-9-drupal-modules-i-use-on-literally-every-build-in-2020)
-* [Mon Top 30 des modules Drupal 8](https://makina-corpus.com/blog/metier/2019/top-drupal-modules)
-* \*\*\*\*
-
+* 
 ## **Administration / Configuration / Indispensables:**
 
 * [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) `composer require drupal/admin_toolbar`
@@ -23,7 +21,6 @@ TODO : Ressources "Choix de modules indispensables" :
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
 * [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) `composer require drupal/twig_vardumper`
-* [Twig Tweak](https://www.drupal.org/project/twig_tweak) / [Cheat sheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) ****`composer require drupal/twig_tweak`
 * [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) `composer require drupal/quick_node_clone`
 * 
 ## SEO
