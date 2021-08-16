@@ -30,5 +30,7 @@ TODO : Ressources "Choix de modules indispensables" :
 
 * [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) `composer require drupal/simple_sitemap`
 * 
+## Taxonomy
 
-
+* [Client-side Hierarchical Select ](https://www.drupal.org/project/cshs)`composer require drupal/cshs`
+* 
