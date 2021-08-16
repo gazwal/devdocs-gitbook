@@ -9,10 +9,12 @@
 
 * [Article de blog de cette agence web Suisse](https://antistatique-website-2020.vercel.app/blog)
 * 
-#### Snippet de code et articles !!!
+#### !!! Snippet de code et articles !!!
 
 * [https://codimth.com/category/web/drupal](https://codimth.com/category/web/drupal)
 * [https://stefvanlooveren.me/tags/drupal](https://stefvanlooveren.me/tags/drupal)
+* [https://pixelthis.gr/article-categories/drupal](https://pixelthis.gr/article-categories/drupal)
+* [https://gist.github.com/radheymkumar](https://gist.github.com/radheymkumar)
 * 
 #### Theming :
 
