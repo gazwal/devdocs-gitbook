@@ -23,6 +23,7 @@ TODO : Ressources "Choix de modules indispensables" :
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
 * [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) `composer require drupal/twig_vardumper`
+* [Twig Tweak](https://www.drupal.org/project/twig_tweak) / [Cheat sheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) ****`composer require drupal/twig_tweak`
 * [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) `composer require drupal/quick_node_clone`
 * 
 ## SEO
