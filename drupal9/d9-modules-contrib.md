@@ -22,8 +22,9 @@ TODO : Ressources "Choix de modules indispensables" :
 ## DEV / Utilitaires / Spécials / Twig
 
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
-* [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) `composer require drupal/twig_vardumper`
+* [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) [https://git.drupalcode.org/project/twig\_vardumper/-/blob/3.0.x/README.md](https://git.drupalcode.org/project/twig_vardumper/-/blob/3.0.x/README.md) `composer require drupal/twig_vardumper`
 * [Twig Tweak](https://www.drupal.org/project/twig_tweak) / [Cheat sheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) / [Docs](https://www.drupal.org/docs/contributed-modules/twig-tweak/twig-tweak-and-views) ****`composer require drupal/twig_tweak`
+* [Twig Field Value](https://www.drupal.org/project/twig_field_value) `composer require drupal/twig_field_value`
 * [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) `composer require drupal/quick_node_clone`
 * 
 ## SEO
