@@ -60,15 +60,12 @@ ou
 settings.php =&gt; settings.local.php =&gt; local.development.services.yml**
 {% endhint %}
 
-{% hint style="danger" %}
-$settings\['container\_yamls'\]\[\] = DRUPAL\_ROOT . '/sites/local.development.services.yml';
-{% endhint %}
-
-**1\) copier le fichier /sites/example.settings.local.php** et le mettre dans /sites/default/example.settings.local.php  
+**1\) copier le fichier /sites/example.settings.local.php** et le mettre dans  
+/sites/default/example.settings.local.php  
 le renommer en **settings.local.php**
 
 **2\) Éditer le fichier settings.php** et :  
-- activer \(dé-commenter\) la prise en compte du fichier settings.local.php \(ligne 770 ...\)
+- activer \(= dé-commenter\) la prise en compte du fichier settings.local.php \(ligne 770 ...\)
 
 ```text
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
