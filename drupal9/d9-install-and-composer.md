@@ -30,6 +30,11 @@ Après avec cloné le site via panthéon, il faut mettre en place un **settings.
 QUAND ya une mise à jour côté pantheon : en local on fait :  
 $ git pull =&gt; ça met à jour uniquement le composer.json donc :  
 **ne pas oublié de faire un de faire un $ composer install + update.php via l'administration**
+
+$ git pull origin master  
+$ composer install  
+$ drush updb  
+$ drush cr
 {% endhint %}
 
 ## Install normal via composer
@@ -50,7 +55,13 @@ Autres ressources :
 ## !!! DEV local + mode Debug !!!
 
 {% hint style="danger" %}
-**settings.php =&gt; settings.local.php =&gt; development.services.yml**
+**settings.php =&gt; settings.local.php =&gt; development.services.yml  
+ou  
+settings.php =&gt; settings.local.php =&gt; local.development.services.yml**
+{% endhint %}
+
+{% hint style="danger" %}
+$settings\['container\_yamls'\]\[\] = DRUPAL\_ROOT . '/sites/local.development.services.yml';
 {% endhint %}
 
 **1\) copier le fichier /sites/example.settings.local.php** et le mettre dans /sites/default/example.settings.local.php  
@@ -67,6 +78,16 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 
 **3\) development.services.yml =&gt; twig debug**  
 Le fichier settings.local.php appelle le fichier /sites/development.services.yml  
+ou un autre nom =&gt; ex : local.development.services.yml
+
+```text
+/**
+ * Enable local development services.
+ */
+// $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/local.development.services.yml';
+```
+
 On édite donc le fichier development.services.yml et on rajoute les services de debug pour TWIG.  
 \(on copie les infos se trouvant dans /sites/default/default.services.yml , lignes 39, pour les coller dans /sites/development.services.yml\)
 
