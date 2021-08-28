@@ -16,7 +16,7 @@ Pas oublier [d'activer le debug de twig dans **developm**](../../drupal-8/instal
 
 ## Twig Functions and Filters
 
-voir [Functions - In Twig Templates](https://www.drupal.org/docs/theming-drupal/twig-in-drupal/functions-in-twig-templates) !!! \*\*\*\*\*
+**voir** [**Functions - In Twig Templates**](https://www.drupal.org/docs/theming-drupal/twig-in-drupal/functions-in-twig-templates) **!!! \*\*\*\*\***
 
 et aussi , theming guide de Acquia Cog :  
 [https://github.com/acquia-pso/cog/blob/8.x-1.x/starterkit/\_theming-guide/twig.md](https://github.com/acquia-pso/cog/blob/8.x-1.x/starterkit/_theming-guide/twig.md)
