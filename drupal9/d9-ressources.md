@@ -15,7 +15,8 @@
 * [https://stefvanlooveren.me/tags/drupal](https://stefvanlooveren.me/tags/drupal)
 * [https://pixelthis.gr/article-categories/drupal](https://pixelthis.gr/article-categories/drupal)
 * [https://gist.github.com/radheymkumar](https://gist.github.com/radheymkumar)
-* 
+* [Quicktips de drupaleasy.com](https://www.drupaleasy.com/quicktips)
+
 #### Theming :
 
 * [Theming guide du theme ACQIA COG](https://github.com/acquia-pso/cog/tree/8.x-1.x/starterkit/_theming-guide) !!!
