@@ -23,7 +23,7 @@ Après avec cloné le site via panthéon, il faut mettre en place un **settings.
 1 - on applique la MAJ via l'interface d'administration  
 2 - on fait un $ git pull sur notre servion locale pour télécharger les changements  
 3 - En général, c'est le composer.lock qui est mis à jour  
-4 - on lance un $ composer install sur notre version locale  
+4 - on lance un $ composer install sur notre servion locale  
 5 - lancer un /update.php sur le site locale
 
 {% hint style="danger" %}
