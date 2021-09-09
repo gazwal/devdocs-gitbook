@@ -14,7 +14,7 @@ TODO : Ressources "Choix de modules indispensables" :
 
 ## Edition de node / Back Office client
 
-* [Views Bulk Operations \(VBO\)](https://www.drupal.org/project/views_bulk_operations) `composer require drupal/views_bulk_operations`
+* [Views Bulk Operations \(VBO\)](https://www.drupal.org/project/views_bulk_operations) + [Views Bulk Edit](https://www.drupal.org/project/views_bulk_edit) `composer require drupal/views_bulk_operations composer require drupal/views_bulk_edit`
 * [Meta position](https://www.drupal.org/project/meta_position) `composer require drupal/meta_position`
 * [Field Group](https://www.drupal.org/project/field_group) `composer require drupal/field_group`
 * 
