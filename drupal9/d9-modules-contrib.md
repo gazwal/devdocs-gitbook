@@ -18,7 +18,7 @@ TODO : Ressources "Choix de modules indispensables" :
 * [Meta position](https://www.drupal.org/project/meta_position) `composer require drupal/meta_position`
 * [Field Group](https://www.drupal.org/project/field_group) `composer require drupal/field_group`
 * [Hide Revision Field](https://www.drupal.org/project/hide_revision_field) \(pour cacher le champ "Créer une nouvelle révision"\) `composer require drupal/hide_revision_field`
-* qsdqs ****
+* **xxxx** 
 
 ## DEV / Utilitaires / Spécials / Twig
 
