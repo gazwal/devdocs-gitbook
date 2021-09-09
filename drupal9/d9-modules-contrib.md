@@ -28,7 +28,9 @@ TODO : Ressources "Choix de modules indispensables" :
 * [Twig Tweak](https://www.drupal.org/project/twig_tweak) / [Cheat sheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) / [Docs](https://www.drupal.org/docs/contributed-modules/twig-tweak/twig-tweak-and-views) ****`composer require drupal/twig_tweak`
 * [Twig Field Value](https://www.drupal.org/project/twig_field_value) `composer require drupal/twig_field_value`
 * [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) `composer require drupal/quick_node_clone`
-* 
+* [Unmanaged / Unused Files \| Manage \| Delete](https://www.drupal.org/project/unmanaged_files) `composer require drupal/unmanaged_files`
+* xxx
+
 ## SEO
 
 * [Simple XML sitemap](https://www.drupal.org/project/simple_sitemap) `composer require drupal/simple_sitemap`
