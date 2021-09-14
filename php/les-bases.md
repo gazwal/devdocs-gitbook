@@ -2,6 +2,8 @@
 
 ## array\_diff =&gt; Check if ALL needles exist
 
+[https://stackoverflow.com/a/11040612](https://stackoverflow.com/a/11040612)
+
 ```text
 function in_array_all($needles, $haystack) {
    return empty(array_diff($needles, $haystack));
