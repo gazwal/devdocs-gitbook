@@ -1,6 +1,26 @@
 # Les bases
 
+## array\_diff =&gt; Check if ALL needles exist
 
+```text
+function in_array_all($needles, $haystack) {
+   return empty(array_diff($needles, $haystack));
+}
+
+echo in_array_all( [3,2,5], [5,8,3,1,2] ); // true, all 3, 2, 5 present
+echo in_array_all( [3,2,5,9], [5,8,3,1,2] ); // false, since 9 is not present
+```
+
+## array\_intersect =&gt; Check if ANY of the needles exist
+
+```text
+function in_array_any($needles, $haystack) {
+   return !empty(array_intersect($needles, $haystack));
+}
+
+echo in_array_any( [3,9], [5,8,3,1,2] ); // true, since 3 is present
+echo in_array_any( [4,9], [5,8,3,1,2] ); // false, neither 4 nor 9 is present
+```
 
 **Comparaisons de $x avec des fonctions PHP**
 
