@@ -11,7 +11,7 @@
 
 [Drupal 8 Custom Module Architecture](https://legaudinier.github.io/Custom-Module-Presentation/#/) \(slide de conf \*\*\*\)\(Lindsay Gaudinier\)  
 [OOP in Drupal 8 and how to use it to create a custom module](https://www.adcisolutions.com/knowledge/oop-drupal-8-and-how-use-it-create-custom-module) \(tuto pratique\)  
-[Custom Blocks in Drupal 8](http://lessons.libs.uga.edu/shawn/custom-drupal8-blocks/) \(exemple ave"c du code !!\)  
+[Custom Blocks in Drupal 8](http://lessons.libs.uga.edu/shawn/custom-drupal8-blocks/) \(exemple avec du code !!\)  
 [Create your first Drupal 8 module](https://befused.com/drupal/first-drupal8-module) \(tuto pratique\)  
 [How to dynamically create image styles derivatives - Part 1](https://drupalsun.com/john-svensson/2018/06/11/how-dynamically-create-image-styles-derivatives-part-1) \(tuto pratique\)
 
