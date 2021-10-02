@@ -25,7 +25,7 @@ TODO : Ressources "Choix de modules indispensables" :
 * [Devel](https://www.drupal.org/project/devel) `composer require drupal/devel`
 * [VarDumper](https://www.drupal.org/project/vardumper) `composer require drupal/vardumper`
 * [Twig VarDumper](https://www.drupal.org/project/twig_vardumper) [https://git.drupalcode.org/project/twig\_vardumper/-/blob/3.0.x/README.md](https://git.drupalcode.org/project/twig_vardumper/-/blob/3.0.x/README.md) `composer require drupal/twig_vardumper`
-* [**Twig Tweak**](https://www.drupal.org/project/twig_tweak) **/** [**Cheat sheet**](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) **/** [**Docs**](https://www.drupal.org/docs/contributed-modules/twig-tweak/twig-tweak-and-views) **/** [**Cheat sheet 2.X**](https://www.drupal.org/docs/contributed-modules/twig-tweak-2x/cheat-sheet) ****`composer require drupal/twig_tweak`
+* [**Twig Tweak**](https://www.drupal.org/project/twig_tweak) **/** [**Cheat sheet**](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) **/** [**Docs**](https://www.drupal.org/docs/contributed-modules/twig-tweak/twig-tweak-and-views) **/** [**Cheat sheet 2.X**](https://www.drupal.org/docs/contributed-modules/twig-tweak-2x/cheat-sheet) ****composer require drupal/twig\_tweak Docs : Functions and filters to get you started with Twig Tweak in Drupal 8 \(with examples\)
 * [Twig Field Value](https://www.drupal.org/project/twig_field_value) `composer require drupal/twig_field_value`
 * [Quick Node Clone](https://www.drupal.org/project/quick_node_clone) `composer require drupal/quick_node_clone`
 * [Unmanaged / Unused Files \| Manage \| Delete](https://www.drupal.org/project/unmanaged_files) `composer require drupal/unmanaged_files`
