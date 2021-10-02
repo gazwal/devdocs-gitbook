@@ -17,7 +17,7 @@
 * [https://gist.github.com/radheymkumar](https://gist.github.com/radheymkumar)
 * [Quicktips de drupaleasy.com](https://www.drupaleasy.com/quicktips)
 *   [https://www.hashbangcode.com/category/drupal-9](https://www.hashbangcode.com/category/drupal-9)
-* [snippets de David Rodríguez](https://gitlab.com/users/davidjguru/snippets)
+* [snippets de David Rodríguez](https://gitlab.com/users/davidjguru/snippets) \(site web [ici](https://www.therussianlullaby.com/categories/development/)\)
 
 #### Theming :
 
