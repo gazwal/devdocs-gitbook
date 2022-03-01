@@ -124,7 +124,7 @@ composer require drupal/admin_toolbar:^2.0
 composer require drupal/backup_migrate:5.0.0-rc2
 
 // Installer la dernière version de DEV
-composer require "drupal/admin_toolbar:1.x-dev"
+composer require 'drupal/admin_toolbar:1.x-dev'
 
 // Specifying a version
 composer require 'drupal/token:^1.5'
