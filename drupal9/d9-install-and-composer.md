@@ -20,64 +20,64 @@ Après avec cloné le site via panthéon, il faut mettre en place un **settings.
 
 ## MISE à jour via pantheon.io
 
-1 - on applique la MAJ via l'interface d'administration  
-2 - on fait un $ git pull sur notre servion locale pour télécharger les changements  
-3 - En général, c'est le composer.lock qui est mis à jour  
-4 - on lance un $ composer install sur notre servion locale  
+1 - on applique la MAJ via l'interface d'administration\
+2 - on fait un $ git pull sur notre servion locale pour télécharger les changements\
+3 - En général, c'est le composer.lock qui est mis à jour\
+4 - on lance un $ composer install sur notre version locale\
 5 - lancer un /update.php sur le site locale
 
 {% hint style="danger" %}
-QUAND ya une mise à jour côté pantheon : en local on fait :  
-$ git pull =&gt; ça met à jour uniquement le composer.json donc :  
+QUAND ya une mise à jour côté pantheon : en local on fait :\
+$ git pull => ça met à jour uniquement le composer.json donc :\
 **ne pas oublié de faire un de faire un $ composer install + update.php via l'administration**
 
-$ git pull origin master  
-$ composer install  
-$ drush updb  
+$ git pull origin master\
+$ composer install\
+$ drush updb\
 $ drush cr
 {% endhint %}
 
 ## Install normal via composer
 
-Lire la doc officielle : [3.5. Using Composer to Download and Update Files](https://www.drupal.org/docs/user_guide/en/install-composer.html)
+Lire la doc officielle : [3.5. Using Composer to Download and Update Files](https://www.drupal.org/docs/user\_guide/en/install-composer.html)
 
 [Using Composer to Install Drupal and Manage Dependencies](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies#download-core-option-a)
 
-```text
+```
 // Exemple : Installation de drupal dans le dossier "drupal9-composer"
 $ composer create-project drupal/recommended-project drupal9-composer
 ```
 
-Autres ressources :   
-[Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)  
+Autres ressources : \
+[Installer Drupal 9 avec Composer](https://www.itss.paris/blog/installer-drupal-9-avec-composer)\
 [Mettre à jour son projet Composer et envisager sereinement la montée de version à Drupal 9](https://www.kaliop.com/fr/mettre-a-jour-son-projet-composer-et-envisager-sereinement-la-montee-de-version-a-drupal-9/)
 
 ## !!! DEV local + mode Debug !!!
 
 {% hint style="danger" %}
-**settings.php =&gt; settings.local.php =&gt; development.services.yml  
-ou  
-settings.php =&gt; settings.local.php =&gt; local.development.services.yml**
+**settings.php => settings.local.php => development.services.yml**\
+**ou**\
+**settings.php => settings.local.php => local.development.services.yml**
 {% endhint %}
 
-**1\) copier le fichier /sites/example.settings.local.php** et le mettre dans  
-/sites/default/example.settings.local.php  
+**1) copier le fichier /sites/example.settings.local.php** et le mettre dans\
+/sites/default/example.settings.local.php\
 le renommer en **settings.local.php**
 
-**2\) Éditer le fichier settings.php** et :  
-- activer \(= dé-commenter\) la prise en compte du fichier settings.local.php \(ligne 770 ...\)
+**2) Éditer le fichier settings.php** et :\
+\- activer (= dé-commenter) la prise en compte du fichier settings.local.php (ligne 770 ...)
 
-```text
+```
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 ```
 
-**3\) development.services.yml =&gt; twig debug**  
-Le fichier settings.local.php appelle le fichier /sites/development.services.yml  
-ou un autre nom =&gt; ex : local.development.services.yml
+**3) development.services.yml => twig debug**\
+Le fichier settings.local.php appelle le fichier /sites/development.services.yml\
+ou un autre nom => ex : local.development.services.yml
 
-```text
+```
 /**
  * Enable local development services.
  */
@@ -85,10 +85,10 @@ ou un autre nom =&gt; ex : local.development.services.yml
 $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/local.development.services.yml';
 ```
 
-On édite donc le fichier development.services.yml et on rajoute les services de debug pour TWIG.  
-\(on copie les infos se trouvant dans /sites/default/default.services.yml , lignes 39, pour les coller dans /sites/development.services.yml\)
+On édite donc le fichier development.services.yml et on rajoute les services de debug pour TWIG.\
+(on copie les infos se trouvant dans /sites/default/default.services.yml , lignes 39, pour les coller dans /sites/development.services.yml)
 
-```text
+```
 parameters:
   twig.config:
     debug: true
@@ -98,30 +98,39 @@ parameters:
 
 Vider le cache après ttes ces modif ou avec drush :
 
-```text
+```
 drush cr
 ```
 
 {% hint style="info" %}
-**important ! :**  
-dans settings.local.php, il y a des mise en cache à désactiver :  
-- Disable the render cache.  
-- Disable caching for migrations.  
-- Disable Internal Page Cache.  
-- Disable Dynamic Page Cache.
+**important ! :**\
+dans settings.local.php, il y a des mise en cache à désactiver :\
+\- Disable the render cache.\
+\- Disable caching for migrations.\
+\- Disable Internal Page Cache.\
+\- Disable Dynamic Page Cache.
 
-**ligne non commentée = le cache est désactivé**  
+**ligne non commentée = le cache est désactivé**\
 lorsque que les caches sont désactivés, le site est très lent. A utilisé que lorsque qu'on taff sur du DEV de fichiers twig ou du debug !!
 {% endhint %}
 
 ## Commandes Composer w/ Drupal
 
-```text
+```
 // Installation de modules/themes
 composer require drupal/admin_toolbar
 composer require drupal/views_bulk_operations:^3.0
 composer require drupal/admin_toolbar:^2.0
 composer require drupal/backup_migrate:5.0.0-rc2
+
+// Installer la dernière version de DEV
+composer require "drupal/admin_toolbar:1.x-dev"
+
+// Specifying a version
+composer require 'drupal/token:^1.5'
+composer require 'drupal/simple_fb_connect:~3.0'
+composer require 'drupal/ctools:3.0.0-alpha26'
+composer require 'drupal/token:1.x-dev'
 
 // Installer plusieurs modules d'un coup : on sépare avec des espaces
 $ composer require drupal/adminimal_theme:^1.5 drupal/adminimal_admin_toolbar:^1.9
@@ -131,7 +140,6 @@ composer outdated --direct
 
 // Lister que les packages Drupal outdated
 composer outdated "drupal/*"
-
 
 
 // Mise à jour de modules/themes
@@ -148,7 +156,7 @@ composer remove drupal/admin_toolbar
 
 Installation de versions spécifiques d'un module :
 
-[https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)  
+[https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release](https://drupal.stackexchange.com/questions/192164/how-can-i-force-composer-to-install-a-dev-branch-over-a-stable-release)\
 [https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules](https://modulesunraveled.com/drupal-8-composer-and-configuration-management/installing-dev-version-modules)
 
 ## MAJ Drupal core w/ Composer
@@ -157,15 +165,15 @@ Installation de versions spécifiques d'un module :
 
 voir aussi en fin de cet article les instructions détaillées : [Detailed update instructions](https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer#update-all-steps)
 
-```text
+```
 // voir si on utilise le template core-recommended
 composer show drupal/core-recommended
 ```
 
 * If drupal/core-recommended is **installed**, this command returns information about the package.
-* If drupal/core-recommended is **not installed,**  this command returns "Package drupal/core-recommended not found".
+* If drupal/core-recommended is **not installed,** this command returns "Package drupal/core-recommended not found".
 
-```text
+```
 // Check for available Drupal update
 composer outdated "drupal/*"
 
@@ -183,24 +191,24 @@ drush cache:rebuild
 {% hint style="danger" %}
 Lors de l'upgrade en LOCAL, j'ai l'erreur :
 
-`[RuntimeException]  
-Could not delete /Users/robin/www/drupal9-composer/web/sites/default/default.services.yml`
+`[RuntimeException]`\
+`Could not delete /Users/robin/www/drupal9-composer/web/sites/default/default.services.yml`
 
-Il faut "set file permissions to allow _user_ and _group_ to write to the file on your local machine:"  
+Il faut "set file permissions to allow _user_ and _group_ to write to the file on your local machine:"\
 Voir : [https://drupal.stackexchange.com/questions/290296/composer-require-fails-because-it-cant-delete-default-services-yml](https://drupal.stackexchange.com/questions/290296/composer-require-fails-because-it-cant-delete-default-services-yml)
 
-```text
+```
 $ chmod ug+w web/sites/default
 ```
 {% endhint %}
 
-#### MAJ d'un site de prod <a id="s-update-the-production-environment-when-applicable"></a>
+#### MAJ d'un site de prod <a href="#s-update-the-production-environment-when-applicable" id="s-update-the-production-environment-when-applicable"></a>
 
 On
 
 ## MAJ Modules/Theme w/ Composer
 
-```text
+```
 // Lister tous les packages outdated
 composer outdated --direct
 
@@ -237,25 +245,24 @@ composer remove drupal/admin_toolbar
 
 ```
 
-## Upgrage d8 -&gt; d9
+## Upgrage d8 -> d9
 
-[Upgrading from Drupal 8 to Drupal 9 \(or later\)](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-later)
+[Upgrading from Drupal 8 to Drupal 9 (or later)](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-later)
 
-Site de type "tarball" :  
+Site de type "tarball" :\
 _Upgrading a tarball-based site from Drupal 8 to Drupal 9 with Drush requires an older version of Drush: Drush 8. See_ [_Update core via Drush_](https://www.drupal.org/docs/8/update/update-core-via-drush) _for instructions on how to do this._
 
-  
+\
 
 
 ## DDEV
 
 A tester un jour :
 
-[https://ddev.readthedocs.io/en/stable/users/cli-usage/\#drupal-9-quickstart](https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart)
+[https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart](https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart)
 
 {% embed url="https://github.com/drud/ddev" %}
 
-{% embed url="https://ddev.readthedocs.io/en/stable/users/cli-usage/\#drupal-9-quickstart" %}
+{% embed url="https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart" %}
 
-**voir** [**docker-ddev**](../dev-tools/docker-ddev.md)\*\*\*\*
-
+**voir** [**docker-ddev**](../dev-tools/docker-ddev.md)****
