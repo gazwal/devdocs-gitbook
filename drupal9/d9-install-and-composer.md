@@ -220,6 +220,11 @@ composer require drupal/admin_toolbar
 composer require drupal/views_bulk_operations:^3.0
 composer require drupal/admin_toolbar:^2.0
 
+// Installer une version  précise
+composer require drupal/admin_toolbar:2.0
+composer require drupal/admin_toolbar:4.1.6
+composer require 'drupal/views_bulk_operations:4.1.6'
+
 // Mise à jour de modules/themes spécifiques
 composer update drupal/admin_toolbar --with-dependencies
 composer update drupal/backup_migrate --with-dependencies
