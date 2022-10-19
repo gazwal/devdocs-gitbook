@@ -1,18 +1,26 @@
 ---
-description: 'Fast, reliable, and secure dependency management.'
+description: Fast, reliable, and secure dependency management.
 ---
 
 # Yarn
 
-yarn est installé & géré par [Homebrew](homebrew.md)  
+yarn est installé & géré par [Homebrew](homebrew.md)\
 _You can install Yarn through the_ [_Homebrew package manager_](https://brew.sh/)_. This will also install Node.js if it is not already installed._
 
-Docs :  
-[https://yarnpkg.com/en/docs/install\#mac-stable](https://yarnpkg.com/en/docs/install#mac-stable)  
-[https://yarnpkg.com/en/docs/cli/](https://yarnpkg.com/en/docs/cli/)  
+Docs :\
+[https://yarnpkg.com/en/docs/install#mac-stable](https://yarnpkg.com/en/docs/install#mac-stable)\
+[https://yarnpkg.com/en/docs/cli/](https://yarnpkg.com/en/docs/cli/)\
 
 
-```text
+{% hint style="danger" %}
+Mettre à jour Yarn => passer par Homebrew !!
+
+```
+$ brew upgrade yarn
+```
+{% endhint %}
+
+```
 // Voir sa version de Yarn
 $ yarn -v
 
@@ -73,6 +81,5 @@ $ yarn upgrade gulp-autoprefixer --latest
 //
 ```
 
-Problème de mise à jour du package.json :  
+Problème de mise à jour du package.json :\
 [Why Running \`yarn upgrade\` Does Not Update My \`package.json\`](https://dev.to/wgao19/why-running-yarn-upgrade-does-not-update-my-package-json-3mon)
-
