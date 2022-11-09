@@ -141,6 +141,10 @@ composer outdated --direct
 // Lister que les packages Drupal outdated
 composer outdated "drupal/*"
 
+// Composer update
+In order to get the latest versions of the dependencies
+and to update the composer.lock file, you should use the update command. 
+https://getcomposer.org/doc/03-cli.md#update-u-upgrade
 
 // Mise à jour de modules/themes
 composer update drupal/admin_toolbar --with-dependencies
