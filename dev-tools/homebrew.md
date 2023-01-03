@@ -33,11 +33,17 @@ $ brew upgrade <formula>
 $ brew upgrade yarn
 ```
 
-#### Plein de commandes :
+#### Installation d'une version spécifique de PHP :
+
+```
+
+brew install php@8.1
+
+```
+
+#### Plein d'exemples de commandes :
 
 {% embed url="https://devhints.io/homebrew" %}
-
-
 
 #### Docs :
 
