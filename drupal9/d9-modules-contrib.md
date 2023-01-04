@@ -10,7 +10,8 @@ TODO : Ressources "Choix de modules indispensables" :
 
 * [Admin Toolbar](https://www.drupal.org/project/admin\_toolbar)\
   `composer require drupal/admin_toolbar`
-* [Module Filter](https://www.drupal.org/project/module\_filter)
+* [Module Filter](https://www.drupal.org/project/module\_filter)\
+  `composer require drupal/module_filter`
 * [Backup and Migrate](https://www.drupal.org/project/backup\_migrate)\
   `composer require drupal/backup_migrate`
 * [Pathauto](https://www.drupal.org/project/pathauto)\
@@ -48,7 +49,7 @@ TODO : Ressources "Choix de modules indispensables" :
 * [Twig VarDumper](https://www.drupal.org/project/twig\_vardumper)\
   [https://git.drupalcode.org/project/twig\_vardumper/-/blob/3.0.x/README.md](https://git.drupalcode.org/project/twig\_vardumper/-/blob/3.0.x/README.md)\
   `composer require drupal/twig_vardumper`
-* [**Twig Tweak**](https://www.drupal.org/project/twig\_tweak)** / **[**Cheat sheet**](https://git.drupalcode.org/project/twig\_tweak/-/blob/3.x/docs/cheat-sheet.md)** / **[**Docs**](https://www.drupal.org/docs/contributed-modules/twig-tweak/twig-tweak-and-views)** / **[**Cheat sheet 2.X**](https://www.drupal.org/docs/contributed-modules/twig-tweak-2x/cheat-sheet)****\
+* [**Twig Tweak**](https://www.drupal.org/project/twig\_tweak) **/** [**Cheat sheet**](https://git.drupalcode.org/project/twig\_tweak/-/blob/3.x/docs/cheat-sheet.md) **/** [**Docs**](https://www.drupal.org/docs/contributed-modules/twig-tweak/twig-tweak-and-views) **/** [**Cheat sheet 2.X**](https://www.drupal.org/docs/contributed-modules/twig-tweak-2x/cheat-sheet)****\
   ****composer require drupal/twig\_tweak\
   Docs :\
   Functions and filters to get you started with Twig Tweak in Drupal 8 (with examples)
