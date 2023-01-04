@@ -6,30 +6,45 @@ TODO : Ressources "Choix de modules indispensables" :
 * [Mon Top 30 des modules Drupal 8](https://makina-corpus.com/blog/metier/2019/top-drupal-modules)
 *
 
-## **Administration / Configuration / Indispensables:**
+{% hint style="info" %}
+Modules Indispensables = \*\*\*\*\* 5 étoiles
+{% endhint %}
 
-* [Admin Toolbar](https://www.drupal.org/project/admin\_toolbar)\
+## **Administration / Configuration / Indispensables :**
+
+* [Admin Toolbar](https://www.drupal.org/project/admin\_toolbar) \*\*\*\*\* ok D10\
   `composer require drupal/admin_toolbar`
-* [Module Filter](https://www.drupal.org/project/module\_filter)\
+* [Module Filter](https://www.drupal.org/project/module\_filter) \*\*\*\*\* ok D10\
   `composer require drupal/module_filter`
-* [Backup and Migrate](https://www.drupal.org/project/backup\_migrate)\
+* [Backup and Migrate](https://www.drupal.org/project/backup\_migrate) \*\*\*\*\* ok D10\
   `composer require drupal/backup_migrate`
-* [Pathauto](https://www.drupal.org/project/pathauto)\
+* [Pathauto](https://www.drupal.org/project/pathauto) \*\*\*\*\* ok D10\
   `composer require drupal/pathauto`
+
+## Utilitaires :
+
+* Supprimer les fichiers/Images non utilisées et ou les supprimer ma
 
 ## Edition de node / Back Office client
 
-* [Views Bulk Operations (VBO)](https://www.drupal.org/project/views\_bulk\_operations) + [Views Bulk Edit](https://www.drupal.org/project/views\_bulk\_edit)\
+* [Views Bulk Operations (VBO)](https://www.drupal.org/project/views\_bulk\_operations) + [Views Bulk Edit](https://www.drupal.org/project/views\_bulk\_edit) \*\*\*\*\
+  ok D10\
   `composer require drupal/views_bulk_operations`\
   `composer require drupal/views_bulk_edit`
-* [Meta position](https://www.drupal.org/project/meta\_position)\
+* [Meta position](https://www.drupal.org/project/meta\_position) \*\*\*\*\*\
   `composer require drupal/meta_position`
-* [Field Group](https://www.drupal.org/project/field\_group)\
+* [Field Group](https://www.drupal.org/project/field\_group) \*\*\*\*\* ok D10\
   `composer require drupal/field_group`
 * [Hide Revision Field](https://www.drupal.org/project/hide\_revision\_field) (pour cacher le champ "Créer une nouvelle révision")\
   `composer require drupal/hide_revision_field`
-* **xx**\
+* ****\
   ****
+
+
+
+
+
+
 
 ## WYSIWYG / CKeditor
 
