@@ -1,35 +1,50 @@
 # Modules Contrib
 
-TODO : Ressources "Choix de modules indispensables" :
+[https://www.drupal.org/project/file\_delete](https://www.drupal.org/project/file\_delete)TODO : Ressources "Choix de modules indispensables" :
 
 * [The 9 Drupal Modules I use on Literally Every Build in 2020](https://mikemadison.net/blog/2020/7/12/the-9-drupal-modules-i-use-on-literally-every-build-in-2020)
 * [Mon Top 30 des modules Drupal 8](https://makina-corpus.com/blog/metier/2019/top-drupal-modules)
 *
 
 {% hint style="info" %}
-Modules Indispensables = \*\*\*\*\* 5 étoiles
+Modules Indispensables = <mark style="background-color:green;">\*\*\*\*\*</mark> 5 étoiles
 {% endhint %}
 
-## **Administration / Configuration / Indispensables :**
+## **Administration / Configuration / BO admin :**
 
-* [Admin Toolbar](https://www.drupal.org/project/admin\_toolbar) \*\*\*\*\* ok D10\
+* [Admin Toolbar](https://www.drupal.org/project/admin\_toolbar) <mark style="background-color:green;">\*\*\*\*\*</mark> ok D10\
   `composer require drupal/admin_toolbar`
-* [Module Filter](https://www.drupal.org/project/module\_filter) \*\*\*\*\* ok D10\
+* [Module Filter](https://www.drupal.org/project/module\_filter) <mark style="background-color:green;">\*\*\*\*\*</mark> ok D10\
   `composer require drupal/module_filter`
-* [Backup and Migrate](https://www.drupal.org/project/backup\_migrate) \*\*\*\*\* ok D10\
+* [Backup and Migrate](https://www.drupal.org/project/backup\_migrate) <mark style="background-color:green;">\*\*\*\*\*</mark> ok D10\
   `composer require drupal/backup_migrate`
-* [Pathauto](https://www.drupal.org/project/pathauto) \*\*\*\*\* ok D10\
+
+
+
+* [Pathauto](https://www.drupal.org/project/pathauto) <mark style="background-color:green;">\*\*\*\*\*</mark> ok D10\
   `composer require drupal/pathauto`
+
+
+
+
+
+
 
 ## Gestion des fichiers (file entity) :
 
 Voir la série d'articles : [https://www.webwash.net/how-to-replace-files-in-drupal/](https://www.webwash.net/how-to-replace-files-in-drupal/)
 
-* [File Replace (D8+)](https://www.drupal.org/project/file\_replace) => intéressant, à tester\
+* [File Replace (D8+)](https://www.drupal.org/project/file\_replace) ok D10 => intéressant, à tester\
   _The file replace module is a small utility providing site administrators with the possibility to replace files, keeping the file uri intact. This is useful in cases where a file is linked or used directly but needs to be updated occasionally._
-* __
 
+**Suppression des fichiers inutiles / n'appartenant plus à un contenu :**
 
+De base, en admin, on a la view : /admin/content/files
+
+* [File Delete](https://www.drupal.org/project/file\_delete) : modifie la view /admin/content/files pour y rajouter un bouton de suppression. Fonctionne pour supprimer ponctuellement un fichier. Suppression immédiate en utilisant Drush.
+* &#x20;[Fancy File Delete](https://www.drupal.org/project/fancy\_file\_delete) : plus complet que ci-dessus, mais pareil, résoud pas le souci des fichiers non utilisés dans les nodes , alors qu'ils apparraissent
+* [Unmanaged / Unused Files | Manage | Delete](https://www.drupal.org/project/unmanaged\_files) => BAD !!! PLANTAGE !!! au 05/01/2022, sous drupal 9.5.1 et php 8.1.13
+*
 
 
 
@@ -89,8 +104,6 @@ Voir la série d'articles : [https://www.webwash.net/how-to-replace-files-in-dru
   `composer require drupal/twig_field_value`
 * [Quick Node Clone](https://www.drupal.org/project/quick\_node\_clone)\
   `composer require drupal/quick_node_clone`
-* [Unmanaged / Unused Files | Manage | Delete](https://www.drupal.org/project/unmanaged\_files)\
-  `composer require drupal/unmanaged_files`
 * xxx
 
 ## SEO
