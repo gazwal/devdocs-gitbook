@@ -21,9 +21,33 @@ Modules Indispensables = \*\*\*\*\* 5 étoiles
 * [Pathauto](https://www.drupal.org/project/pathauto) \*\*\*\*\* ok D10\
   `composer require drupal/pathauto`
 
-## Utilitaires :
+## Gestion des fichiers (file entity) :
 
-* Supprimer les fichiers/Images non utilisées et ou les supprimer ma
+Voir la série d'articles : [https://www.webwash.net/how-to-replace-files-in-drupal/](https://www.webwash.net/how-to-replace-files-in-drupal/)
+
+* [File Replace (D8+)](https://www.drupal.org/project/file\_replace) => intéressant, à tester\
+  _The file replace module is a small utility providing site administrators with the possibility to replace files, keeping the file uri intact. This is useful in cases where a file is linked or used directly but needs to be updated occasionally._
+* __
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Edition de node / Back Office client
 
@@ -37,14 +61,7 @@ Modules Indispensables = \*\*\*\*\* 5 étoiles
   `composer require drupal/field_group`
 * [Hide Revision Field](https://www.drupal.org/project/hide\_revision\_field) (pour cacher le champ "Créer une nouvelle révision")\
   `composer require drupal/hide_revision_field`
-* ****\
-  ****
-
-
-
-
-
-
+*
 
 ## WYSIWYG / CKeditor
 
