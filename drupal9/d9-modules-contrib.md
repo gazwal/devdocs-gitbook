@@ -23,6 +23,8 @@ Modules Indispensables = <mark style="background-color:green;">\*\*\*\*\*</mark>
 
 * [Pathauto](https://www.drupal.org/project/pathauto) <mark style="background-color:green;">\*\*\*\*\*</mark> ok D10\
   `composer require drupal/pathauto`
+* [Transliterate filenames for uploads](https://www.drupal.org/project/transliterate\_filenames) <mark style="background-color:green;">\*\*\*\*\*</mark>\
+  \=>Transliteration for all uploading files (includes fields and CKEditor inline uploads)
 
 
 
@@ -58,34 +60,19 @@ De base, en admin, on a la view : /admin/content/files
 
 
 
-
-
-
-
-
-
 ## Edition de node / Back Office client
 
-* [Views Bulk Operations (VBO)](https://www.drupal.org/project/views\_bulk\_operations) + [Views Bulk Edit](https://www.drupal.org/project/views\_bulk\_edit) \*\*\*\*\
-  ok D10\
+* [Views Bulk Operations (VBO)](https://www.drupal.org/project/views\_bulk\_operations) + [Views Bulk Edit](https://www.drupal.org/project/views\_bulk\_edit) <mark style="background-color:green;">\*\*\*\*\*</mark>\
   `composer require drupal/views_bulk_operations`\
   `composer require drupal/views_bulk_edit`
-* [Meta position](https://www.drupal.org/project/meta\_position) \*\*\*\*\*\
-  `composer require drupal/meta_position`
-* [Field Group](https://www.drupal.org/project/field\_group) \*\*\*\*\* ok D10\
+* [Meta position](https://www.drupal.org/project/meta\_position) <mark style="background-color:green;">\*\*\*\*\*</mark>\
+  `composer require drupal/meta_position`\
+  ``=> quasi indispensable pour l'édition des nodes, en attente d'un thème de BO qui soit impeccable
+* [Field Group](https://www.drupal.org/project/field\_group) \*\*\*\
   `composer require drupal/field_group`
-* [Hide Revision Field](https://www.drupal.org/project/hide\_revision\_field) (pour cacher le champ "Créer une nouvelle révision")\
-  `composer require drupal/hide_revision_field`
 *
 
-## WYSIWYG / CKeditor
 
-* [CKEditor Entity Link](https://www.drupal.org/project/ckeditor\_entity\_link)
-* [Editor Advanced link](https://www.drupal.org/project/editor\_advanced\_link)
-*   [Editor File upload](https://www.drupal.org/project/editor\_file)
-
-    [https://www.ostraining.com/blog/drupal/directly-upload-and-link-files/](https://www.ostraining.com/blog/drupal/directly-upload-and-link-files/)
-*
 
 ## DEV / Utilitaires / Spécials / Twig
 
