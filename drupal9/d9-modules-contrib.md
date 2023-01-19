@@ -37,7 +37,8 @@ Modules Indispensables = <mark style="background-color:green;">\*\*\*\*\*</mark>
 Voir la série d'articles : [https://www.webwash.net/how-to-replace-files-in-drupal/](https://www.webwash.net/how-to-replace-files-in-drupal/)
 
 * [File Replace (D8+)](https://www.drupal.org/project/file\_replace) ok D10 => intéressant, à tester\
-  _The file replace module is a small utility providing site administrators with the possibility to replace files, keeping the file uri intact. This is useful in cases where a file is linked or used directly but needs to be updated occasionally._
+  _The file replace module is a small utility providing site administrators with the possibility to replace files, keeping the file uri intact. This is useful in cases where a file is linked or used directly but needs to be updated occasionally._\
+  _=>voir le tuto :_ [_https://www.webwash.net/how-to-replace-files-in-drupal/_](https://www.webwash.net/how-to-replace-files-in-drupal/)__
 
 **Suppression des fichiers inutiles / n'appartenant plus à un contenu :**
 
