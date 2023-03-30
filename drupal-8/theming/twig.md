@@ -2,23 +2,23 @@
 
 ## Twig Debug
 
-[Discovering and Inspecting Variables in Twig Templates](https://www.drupal.org/docs/8/theming/twig/discovering-and-inspecting-variables-in-twig-templates) \(drupal.org\)  
-[Debugging Twig templates](https://www.drupal.org/node/1906392) \(drupal.org\)
+[Discovering and Inspecting Variables in Twig Templates](https://www.drupal.org/docs/8/theming/twig/discovering-and-inspecting-variables-in-twig-templates) (drupal.org)\
+[Debugging Twig templates](https://www.drupal.org/node/1906392) (drupal.org)
 
 {% hint style="info" %}
-**Far and beyond the best way to deal with Viewing variables is to use Xdebug**.  
+**Far and beyond the best way to deal with Viewing variables is to use Xdebug**.\
 The most often recommended approach is to use [PHPstorm and Xdebug](https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html) as the configuration is the most simple to get setup
 {% endhint %}
 
 {% hint style="danger" %}
-Pas oublier [d'activer le debug de twig dans **development.services.yml**](../install-and-composer.md#activer-lenvironnement-de-dev-mode-debug)\*\*\*\*
+Pas oublier [d'activer le debug de twig dans **development.services.yml**](../install-and-composer.md#activer-lenvironnement-de-dev-mode-debug)****
 {% endhint %}
 
-[Printer des variables avec KINT](https://www.webwash.net/how-to-print-variables-using-kint-in-drupal-8/) \(activer Devel + Devel Kint\)  
-kint\(\) =&gt; The kint function prints everything at the top of the page.  
-ksm\(\) =&gt; The ksm function prints the Kint output in the message region of your theme.
+[Printer des variables avec KINT](https://www.webwash.net/how-to-print-variables-using-kint-in-drupal-8/) (activer Devel + Devel Kint)\
+kint() => The kint function prints everything at the top of the page.\
+ksm() => The ksm function prints the Kint output in the message region of your theme.
 
-Utilisation avec Twig =&gt; `{{ kint(page) }`
+Utilisation avec Twig => `{{ kint(page) }`
 
 ```php
 # using kint in twig file 
@@ -34,9 +34,11 @@ Utilisation avec Twig =&gt; `{{ kint(page) }`
 {{ dump(_context|keys) }}
 
 # print formatted keys or value 
+{% raw %}
 {% for key, value in _context %}
   <li>{{ key }}</li>
 {% endfor %}
+{% endraw %}
 ```
 
 ## Twig Basics
@@ -52,16 +54,19 @@ I am {{ hamburgers }}
 {{ 'I am ' ~ var.something }}
 
 # set a variable
+{% raw %}
 {% set var = content.string %}
 
 # set array
 {% set myarray = {'acorn': 'awesome', 'tree': 'better'} %}
+{% endraw %}
 ```
 
 ## Twig Comparison and Control Operators
 
 ```php
 # foreach loop for myarray
+{% raw %}
 {% for arrayfor in myarray %} {% endfor %}
 
 # or
@@ -100,6 +105,7 @@ I am {{ hamburgers }}
 
 # regex 
 {% if numbers matches '/^[\\d\\.]+$/' %} {% endif %}
+{% endraw %}
 ```
 
 ## Twig Functions and Filters
@@ -115,6 +121,7 @@ voir [Functions - In Twig Templates](https://www.drupal.org/docs/theming-drupal/
 {{ 'Hello @acorn'|t({ '@acorn': myarray.acorn }) }}
 
 # Renderable arrays can be printed by default 
+{% raw %}
 {% set numbers = [{'#markup': 'One'}, {'#markup':'Two'}, {'#other':'Three'}] %}
 {{ numbers }} // prints 'OneTwo' 
 
@@ -177,6 +184,7 @@ voir [Functions - In Twig Templates](https://www.drupal.org/docs/theming-drupal/
 
 # sort an array 
 {% users|sort %}
+{% endraw %}
 ```
 
 ## Additional References
@@ -187,5 +195,4 @@ voir [Functions - In Twig Templates](https://www.drupal.org/docs/theming-drupal/
 * [Filters - Modifying Variables In Twig Templates](https://www.drupal.org/node/2357633)
 * [Functions - In Twig Templates](https://www.drupal.org/node/2486991)
 * [Twig best practices - preprocess functions and templates](https://www.drupal.org/node/1920746)
-* [Drupal-defined Twig Filters](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Template%21TwigExtension.php/function/TwigExtension%3A%3AgetFilters/8)
-
+* [Drupal-defined Twig Filters](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Template!TwigExtension.php/function/TwigExtension%3A%3AgetFilters/8)

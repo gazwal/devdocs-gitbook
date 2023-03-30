@@ -2,7 +2,7 @@
 
 Liste des modules CORE installés par défaut lors d'une install "**standard**" :
 
-```text
+```
 robin@mbprobin drupal9-composer % drush pm-list --type=Module --status=enabled --core   
  -------------- -------------------------------------------------- --------- --------- 
   Package        Name                                               Status    Version  
@@ -59,6 +59,13 @@ robin@mbprobin drupal9-composer % drush pm-list --type=Module --status=enabled -
 
 * **Quick Edit** : Modification rapide du contenu.
 * **Help** : Gère l'affichage de l'aide en ligne.
+* Tour :&#x20;
+* Search :
+* Comment :
+* Color :
+* Breakpoint :
+* Contact :
+*
 
 ## Module core à installer
 
@@ -73,6 +80,4 @@ Please note that inputting your CSS breakpoints into your breakpoints.yml file i
 {% endhint %}
 
 [Working with breakpoints in Drupal 8](https://www.drupal.org/docs/8/theming-drupal-8/working-with-breakpoints-in-drupal-8)
-
-
 

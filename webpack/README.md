@@ -2,13 +2,13 @@
 
 DOCS : [https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/)
 
-```text
+```
 // INSTALL
 $ npm install webpack webpack-cli --save-dev
 $ yarn add webpack webpack-cli --dev
 ```
 
-```text
+```
 Pour exécuter la commande webpack
 $ npx webpack
 
@@ -24,9 +24,8 @@ Entrypoint main = main.js
 
 ```
 
-> NPX - A tool for executing Node packages  
-> The `npx` command, which ships with Node 8.2/npm 5.2.0 or higher, runs the webpack binary \(`./node_modules/.bin/webpack`\)  
+> \
+> NPX - A tool for executing Node packages\
+> The `npx` command, which ships with Node 8.2/npm 5.2.0 or higher, runs the webpack binary (`./node_modules/.bin/webpack`)\
 > NPX est installé avec NPM par défaut
-
-
 

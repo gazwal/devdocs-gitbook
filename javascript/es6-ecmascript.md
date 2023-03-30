@@ -20,9 +20,8 @@ FR :
 
 ### EN :
 
-[**Airbnb JavaScript Style Guide\(\)**](https://github.com/airbnb/javascript) **!!!!!**
+[**Airbnb JavaScript Style Guide()**](https://github.com/airbnb/javascript) **!!!!!**
 
-{% embed url="https://medium.com/@luke\_smaki/javascript-es6-classes-8a34b0a6720a" %}
+{% embed url="https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a" %}
 
 {% embed url="https://babeljs.io/docs/en/learn" %}
-

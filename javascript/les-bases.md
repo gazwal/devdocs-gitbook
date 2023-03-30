@@ -1,7 +1,7 @@
 # Les bases
 
-DOC [  
-https://developer.mozilla.org/fr/docs/Web/JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)  
+DOC [\
+https://developer.mozilla.org/fr/docs/Web/JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)\
 [https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/while)
 
 ## Variables
@@ -34,7 +34,7 @@ demo = "Hello" // ATTENTION, ici on modifie la valeur de demo
 ```
 
 {% hint style="warning" %}
-on ne peut pas déclarer une variable avec un chiffre ou un caractère spécial  
+on ne peut pas déclarer une variable avec un chiffre ou un caractère spécial\
 var 01 = "hello"
 {% endhint %}
 
@@ -63,11 +63,11 @@ eleves[2] // "Marion"
 ```
 
 {% hint style="warning" %}
-On peut créer un tableau qui contient des objets :  
-Pas de tableau associatifs en JavaScript comme en PHP \(_key =&gt; value_\)  
-Il faut pour cela créer des objets \(avec des accolades\)  
-Pour parcourir un tableau avec des key=&gt;value avec la boucle FOR on fait souvent des tableau avec des objets dedans.  
-Voir exercices ci-dessous \(boucles\)  
+On peut créer un tableau qui contient des objets :\
+Pas de tableau associatifs en JavaScript comme en PHP (_key => value_)\
+Il faut pour cela créer des objets (avec des accolades)\
+Pour parcourir un tableau avec des key=>value avec la boucle FOR on fait souvent des tableau avec des objets dedans.\
+Voir exercices ci-dessous (boucles)\
 **TOUT est objet dans javascript !**
 {% endhint %}
 
@@ -154,12 +154,12 @@ for (index = 0; index < eleves.length; index++) {
 }
 ```
 
-**Exercice : savoir si un nombre est premier**  
-Un nombre EST premier s'il est divisible QUE par 1 ou lui-même  
-Un nombres N'EST PAS premier s'il est divisible par un nombre entre 2 et \(lui-même -1\)
+**Exercice : savoir si un nombre est premier**\
+Un nombre EST premier s'il est divisible QUE par 1 ou lui-même\
+Un nombres N'EST PAS premier s'il est divisible par un nombre entre 2 et (lui-même -1)
 
 {% hint style="info" %}
-on utilise la fonction [modulo](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques#Reste_%28%29) = le reste de la division  
+on utilise la fonction [modulo](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs\_arithm%C3%A9tiques#Reste\_\(\)) = le reste de la division\
 souvent utilisé pour savoir si un nombre est pair ou impair
 {% endhint %}
 
@@ -323,8 +323,8 @@ console.log(estMeilleur(eleve1, eleve2))
 ```
 
 {% hint style="danger" %}
-JavaScript ne vérifie pas le nombre de paramètres à passer dans la fonction.  
-Si on envoi que 1 paramètre, il attribut _undefined_ aux autres  
+JavaScript ne vérifie pas le nombre de paramètres à passer dans la fonction.\
+Si on envoi que 1 paramètre, il attribut _undefined_ aux autres\
 cf ci-dessous :
 {% endhint %}
 
@@ -370,7 +370,7 @@ var estPremier = function (nombre) {
 }
 ```
 
-On peut mettre aussi des fonction dans un objet :  
+On peut mettre aussi des fonction dans un objet :\
 Ces fonctions sont appelées des méthodes.
 
 ```javascript
@@ -407,10 +407,10 @@ console.log(index) // 10
 ```
 
 {% hint style="success" %}
-On parle de **méthode** quant c'est une fonction qui est utilisé sur un objet \(quand les objets ont des fonctions = méthode\)  
-ex : [méthodes pour les chaînes de caractères](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String)  
-"azerty".toUpperCase\(\)  
-"azerty".toUpperCase\(\)
+On parle de **méthode** quant c'est une fonction qui est utilisé sur un objet (quand les objets ont des fonctions = méthode)\
+ex : [méthodes pour les chaînes de caractères](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets\_globaux/String)\
+"azerty".toUpperCase()\
+"azerty".toUpperCase()
 {% endhint %}
 
 ## L'opérateur this
@@ -539,4 +539,3 @@ console.log(jean.moyenne()) // 15
 console.log(marc.nombreDeChats) // 120
 console.log(jean.notes) // Array [ 10, 20 ]
 ```
-
