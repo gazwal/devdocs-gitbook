@@ -33,5 +33,6 @@ description: Exemple de MAJ de la version 6.6 vers 6.8
    /Applications/MAMP\_OLD/conf/apache/extra/httpd-vhosts.conf\
    vers\
    /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
-9. Relacer MAMP, tout est OK
-10.
+9. Relancer MAMP, tout est OK
+
+\
