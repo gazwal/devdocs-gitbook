@@ -26,6 +26,10 @@ Modules Indispensables = <mark style="background-color:green;">\*\*\*\*\*</mark>
 * [Transliterate filenames for uploads](https://www.drupal.org/project/transliterate\_filenames) <mark style="background-color:green;">\*\*\*\*\*</mark>\
   \=>Transliteration for all uploading files (includes fields and CKEditor inline uploads)
 
+## Utilitaires
+
+* [Override Node Options](https://www.drupal.org/project/override\_node\_options) ok D10
+
 
 
 
@@ -36,7 +40,7 @@ Modules Indispensables = <mark style="background-color:green;">\*\*\*\*\*</mark>
 
 Voir la série d'articles : [https://www.webwash.net/how-to-replace-files-in-drupal/](https://www.webwash.net/how-to-replace-files-in-drupal/)
 
-* [File Replace (D8+)](https://www.drupal.org/project/file\_replace) ok D10 => intéressant, à tester\
+* [File Replace (D8+)](https://www.drupal.org/project/file\_replace) ok D10 => intéressant, à tester =>BOF au final, pas sur que cela fonctionne\
   _The file replace module is a small utility providing site administrators with the possibility to replace files, keeping the file uri intact. This is useful in cases where a file is linked or used directly but needs to be updated occasionally._\
   _=>voir le tuto :_ [_https://www.webwash.net/how-to-replace-files-in-drupal/_](https://www.webwash.net/how-to-replace-files-in-drupal/)__
 
@@ -46,7 +50,7 @@ De base, en admin, on a la view : /admin/content/files
 
 * [File Delete](https://www.drupal.org/project/file\_delete) : modifie la view /admin/content/files pour y rajouter un bouton de suppression. Fonctionne pour supprimer ponctuellement un fichier. Suppression immédiate en utilisant Drush.
 * &#x20;[Fancy File Delete](https://www.drupal.org/project/fancy\_file\_delete) : plus complet que ci-dessus, mais pareil, résoud pas le souci des fichiers non utilisés dans les nodes , alors qu'ils apparraissent
-* [Unmanaged / Unused Files | Manage | Delete](https://www.drupal.org/project/unmanaged\_files) => BAD !!! PLANTAGE !!! au 05/01/2022, sous drupal 9.5.1 et php 8.1.13
+* __[_Unmanaged / Unused Files | Manage | Delete_](https://www.drupal.org/project/unmanaged\_files) _=> BAD !!! PLANTAGE !!! au 05/01/2022, sous drupal 9.5.1 et php 8.1.13_
 *
 
 
