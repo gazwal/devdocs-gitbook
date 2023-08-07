@@ -133,7 +133,7 @@ composer require 'drupal/ctools:3.0.0-alpha26'
 composer require 'drupal/token:1.x-dev'
 
 // Installer plusieurs modules d'un coup : on sépare avec des espaces
-$ composer require drupal/adminimal_theme:^1.5 drupal/adminimal_admin_toolbar:^1.9
+composer require drupal/adminimal_theme:^1.5 drupal/adminimal_admin_toolbar:^1.9
 
 // Lister tous les packages outdated
 composer outdated --direct
@@ -145,6 +145,7 @@ composer outdated "drupal/*"
 In order to get the latest versions of the dependencies
 and to update the composer.lock file, you should use the update command. 
 https://getcomposer.org/doc/03-cli.md#update-u-upgrade
+composer update
 
 // Mise à jour de modules/themes
 composer update drupal/admin_toolbar --with-dependencies
@@ -243,6 +244,8 @@ composer require drupal/backup_migrate
 // là on a bien un "upgrade" vers 5.0.1 :
 // Upgrading drupal/backup_migrate (5.0.0-rc2 => 5.0.1)
 
+NB : $ composer update => permet de mettre tout à jour d'un coup, les modules
+drupal mais aussi les dépendances composer
 
 // ############ pas oublier pour finir :
 drush updatedb
@@ -274,4 +277,4 @@ A tester un jour :
 
 {% embed url="https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart" %}
 
-**voir** [**docker-ddev**](../dev-tools/docker-ddev.md)****
+**voir** [**docker-ddev**](../dev-tools/docker-ddev.md)
